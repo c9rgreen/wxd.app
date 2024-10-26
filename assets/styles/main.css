@@ -142,7 +142,7 @@ filterable-list::part(list) {
 
 .discussion > p,
 .dsicussion > pre {
-  font-family: monospace;
+  font-family: ui-monospace;
 }
 
 .discussion-header {
