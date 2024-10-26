@@ -165,7 +165,7 @@ class Line {
   }
 
   parseFormat() {
-    this.pre = this.line.includes("  ");
+    this.pre = this.line.includes("  ") || this.line.includes("...");
   }
 
   parseOffice() {
