@@ -12,8 +12,7 @@
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-plugin-ejs": "^1.0.0",
-    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "dayjs": "^1.11.13",
     "sanitize.css": "^13.0.0"
   },

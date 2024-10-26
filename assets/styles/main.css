@@ -101,6 +101,10 @@ filterable-list::part(list) {
   margin: 0;
 }
 
+.site-nav li.active a {
+  background: var(--sand-500);
+}
+
 .site-nav li.hidden {
   display: none;
 }

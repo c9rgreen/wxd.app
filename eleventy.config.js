@@ -1,4 +1,5 @@
 import eleventy from "@11ty/eleventy";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 export default function (eleventyConfig) {
   // Configure Liquid
@@ -6,6 +7,9 @@ export default function (eleventyConfig) {
     dynamicPartials: true,
     strictFilters: true,
   });
+
+  // Navigation
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // Styles
   eleventyConfig.addPassthroughCopy("assets/styles/main.css");
