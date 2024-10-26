@@ -198,6 +198,13 @@ class Line {
 class SectionTitle {
   text = "";
 
+  get titleCase() {
+    return this.text
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(" ");
+  }
+
   constructor(text) {
     this.text = text;
   }
@@ -340,7 +347,7 @@ if (discussionElement) {
       // Header
       const headerElement = document.createElement("h3");
       headerElement.className = "section-header";
-      headerElement.textContent = section.title.text;
+      headerElement.textContent = section.title.titleCase;
       discussionElement.append(headerElement);
 
       // Blocks
