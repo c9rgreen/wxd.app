@@ -143,6 +143,10 @@ filterable-list::part(list) {
   font-family: ui-monospace;
 }
 
+.discussion a {
+  color: var(--gold-500);
+}
+
 .discussion-header {
   margin: 0 0 var(--spacer-md);
 }
