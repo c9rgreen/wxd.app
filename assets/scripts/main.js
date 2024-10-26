@@ -309,10 +309,10 @@ class Discussion {
 
 // Are we on a discussion page?
 const discussionElement = document.getElementById("discussion");
-const discussionCode = discussionElement.dataset.code;
-const discussionSourceElement = document.getElementById("discussion-source");
 
 if (discussionElement) {
+  const discussionCode = discussionElement.dataset.code;
+  const discussionSourceElement = document.getElementById("discussion-source");
   const discussion = new Discussion(discussionCode);
 
   // Source
