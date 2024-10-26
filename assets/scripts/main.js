@@ -64,7 +64,7 @@ function parseDate(inputString) {
   console.log("Input string:", inputString);
 
   const dateRegex =
-    /(\d{1,2})(\d{2}) (AM|PM)\ (\w{3})\ (\w{3})\ (\w{3})\ (\d{1,2})\ (\d{4})/;
+    /(\d{1,2})(\d{2}) (AM|PM)\ (\w{3,4})\ (\w{3})\ (\w{3})\ (\d{1,2})\ (\d{4})/;
   const dateMatch = dateRegex.exec(inputString);
 
   if (dateMatch) {
