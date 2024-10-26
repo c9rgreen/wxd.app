@@ -136,6 +136,11 @@ filterable-list::part(list) {
   padding: var(--spacer-md);
 }
 
+.discussion > p,
+.dsicussion > pre {
+  font-family: monospace;
+}
+
 .discussion-header {
   margin: 0 0 var(--spacer-md);
 }
