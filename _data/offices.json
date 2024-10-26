@@ -1,0 +1,734 @@
+[
+  {
+    "city": "Aberdeen",
+    "state": "South Dakota",
+    "code": "ABR",
+    "address": "824 391st Ave S. Aberdeen, SD 57401-9311"
+  },
+  {
+    "city": "Albany",
+    "state": "New York",
+    "code": "ALY",
+    "address": "ETEC - National Weather Service 1400 Washington Avenue, Albany, NY 12222"
+  },
+  {
+    "city": "Albuquerque",
+    "state": "New Mexico",
+    "code": "ABQ",
+    "address": "2341 Clark Carr Loop SE, Albuquerque, NM 87106"
+  },
+  {
+    "city": "Amarillo",
+    "state": "Texas",
+    "code": "AMA",
+    "address": "1900 English Rd, Amarillo, TX 79108"
+  },
+  {
+    "city": "Anchorage",
+    "state": "Alaska",
+    "code": "AFC",
+    "address": "6930 Sand Lake Rd, Anchorage, AK 99502"
+  },
+  {
+    "city": "Austin/San Antonio",
+    "state": "Texas",
+    "code": "EWX",
+    "address": "2090 Airport Rd, New Braunfels, TX 78130"
+  },
+  {
+    "city": "Baltimore/Washington",
+    "state": "Virginia",
+    "code": "LWX",
+    "address": "43858 Weather Service Road, Sterling, VA 20166"
+  },
+  {
+    "city": "Billings",
+    "state": "Montana",
+    "code": "BYZ",
+    "address": "2170 Overland Ave, Billings, MT 59102"
+  },
+  {
+    "city": "Binghamton",
+    "state": "New York",
+    "code": "BGM",
+    "address": "32 Dawes Dr, Johnson City, NY 13790"
+  },
+  {
+    "city": "Birmingham",
+    "state": "Alabama",
+    "code": "BMX",
+    "address": "465 Weather Vane Rd, Calera, AL 35040"
+  },
+  {
+    "city": "Bismarck",
+    "state": "North Dakota",
+    "code": "BIS",
+    "address": "2301 University Drive Building 27 Bismarck, ND 58504"
+  },
+  {
+    "city": "Blacksburg/Roanoke",
+    "state": "Virginia",
+    "code": "RNK",
+    "address": "1750 Forecast Dr, Blacksburg, VA 24060"
+  },
+  {
+    "city": "Boise",
+    "state": "Idaho",
+    "code": "BOI",
+    "address": "NIFC Building 3807, 3833 Development Ave, Boise, ID 83705"
+  },
+  {
+    "city": "Boston/Norton",
+    "state": "Massachusetts",
+    "code": "BOX",
+    "address": "46 Commerce Way, Norton, MA 02766"
+  },
+  {
+    "city": "Brownsville",
+    "state": "Texas",
+    "code": "BRO",
+    "address": "20 S Vermillion Ave, Brownsville, TX 78521"
+  },
+  {
+    "city": "Buffalo",
+    "state": "New York",
+    "code": "BUF",
+    "address": "587 Aero Drive, Cheektowaga, NY 14225"
+  },
+  {
+    "city": "Burlington",
+    "state": "Vermont",
+    "code": "BTV",
+    "address": "1200 Airport Dr, South Burlington, VT 05403"
+  },
+  {
+    "city": "Caribou",
+    "state": "Maine",
+    "code": "CAR",
+    "address": "810 Main St, Caribou, ME 04736"
+  },
+  {
+    "city": "Chanhassen/Twin Cities",
+    "state": "Minnesota",
+    "code": "MPX",
+    "address": "1733 Lake Drive West Chanhassen, MN, 55317"
+  },
+  {
+    "city": "Charleston",
+    "state": "South Carolina",
+    "code": "CHS",
+    "address": "5777 S Aviation Ave, North Charleston, SC 29406"
+  },
+  {
+    "city": "Charleston",
+    "state": "West Virginia",
+    "code": "RLX",
+    "address": "1754 Hendrickson Dr, South Charleston, WV 25303"
+  },
+  {
+    "city": "Cheyenne",
+    "state": "Wyoming",
+    "code": "CYS",
+    "address": "1301 Airport Parkway Cheyenne, WY 82001"
+  },
+  {
+    "city": "Chicago",
+    "state": "Illinois",
+    "code": "LOT",
+    "address": "333 West University Drive Romeoville, IL 60446"
+  },
+  {
+    "city": "Cleveland",
+    "state": "Ohio",
+    "code": "CLE",
+    "address": "925 Keynote Circle Suite 314, Brooklyn Heights, OH 44131"
+  },
+  {
+    "city": "Columbia",
+    "state": "South Carolina",
+    "code": "CAE",
+    "address": "2909 Aviation Way West, Columbia, SC 29170"
+  },
+  {
+    "city": "Corpus Christi",
+    "state": "Texas",
+    "code": "CRP",
+    "address": "426 Pinson Dr, Corpus Christi, TX 78406"
+  },
+  {
+    "city": "Davenport/Quad Cities",
+    "state": "Iowa",
+    "code": "DVN",
+    "address": "9040 N Harrison Street, Davenport, IA, 52806"
+  },
+  {
+    "city": "Denver - Boulder",
+    "state": "Colorado",
+    "code": "BOU",
+    "address": "325 Broadway Boulder, CO 80305"
+  },
+  {
+    "city": "Des Moines",
+    "state": "Iowa",
+    "code": "DMX",
+    "address": "9607 NW Beaver Drive Johnston, IA 50131"
+  },
+  {
+    "city": "Detroit/Pontiac",
+    "state": "Michigan",
+    "code": "DTX",
+    "address": "9200 White Lake Road White Lake, MI 48386"
+  },
+  {
+    "city": "Dodge City",
+    "state": "Kansas",
+    "code": "DDC",
+    "address": "104 Airport Road Dodge City, KS, 67801"
+  },
+  {
+    "city": "Duluth",
+    "state": "Minnesota",
+    "code": "DLH",
+    "address": "5027 Miller Trunk Highway Duluth, MN 55811"
+  },
+  {
+    "city": "El Paso",
+    "state": "Texas",
+    "code": "EPZ",
+    "address": "7955 Airport Rd, Santa Teresa, NM 88008"
+  },
+  {
+    "city": "Elko",
+    "state": "Nevada",
+    "code": "LKN",
+    "address": "3720 Paradise Dr, Elko, NV 89801"
+  },
+  {
+    "city": "Eureka",
+    "state": "California",
+    "code": "EKA",
+    "address": "300 Startare Dr, Eureka, CA 95501"
+  },
+  {
+    "city": "Fairbanks",
+    "state": "Alaska",
+    "code": "AFG",
+    "address": "UAF-Akasofu Building, Fairbanks, AK 99775-7345"
+  },
+  {
+    "city": "Flagstaff",
+    "state": "Arizona",
+    "code": "FGZ",
+    "address": "Building 49 Hughes Ave, Bellemont, AZ 86015"
+  },
+  {
+    "city": "Fort Worth-Dallas",
+    "state": "Texas",
+    "code": "FWD",
+    "address": "3401 Northern Cross Blvd, Fort Worth, TX 76137"
+  },
+  {
+    "city": "Gaylord",
+    "state": "Michigan",
+    "code": "APX",
+    "address": "8800 Passenheim Road Gaylord, MI 49735"
+  },
+  {
+    "city": "Glasgow",
+    "state": "Montana",
+    "code": "GGW",
+    "address": "92 Airport Rd, Glasgow, MT 59230"
+  },
+  {
+    "city": "Goodland",
+    "state": "Kansas",
+    "code": "GLD",
+    "address": "920 Armory Road Goodland, KS 67735"
+  },
+  {
+    "city": "Grand Forks",
+    "state": "North Dakota",
+    "code": "FGF",
+    "address": "4797 Technology Circle Grand Forks, ND 58203"
+  },
+  {
+    "city": "Grand Junction",
+    "state": "Colorado",
+    "code": "GJT",
+    "address": "2844 Aviators Way Grand Junction, CO 81506"
+  },
+  {
+    "city": "Grand Rapids",
+    "state": "Michigan",
+    "code": "GRR",
+    "address": "4899 Tim Dougherty Dr, Grand Rapids, MI 49512"
+  },
+  {
+    "city": "Gray/Portland",
+    "state": "Maine",
+    "code": "GYX",
+    "address": "1 Weather Ln, Gray, ME 04039"
+  },
+  {
+    "city": "Great Falls",
+    "state": "Montana",
+    "code": "TFX",
+    "address": "5324 Tri Hill Frontage Rd, Great Falls, MT 59404"
+  },
+  {
+    "city": "Green Bay",
+    "state": "Wisconsin",
+    "code": "GRB",
+    "address": "2485 South Point Road Green Bay, WI 54313"
+  },
+  {
+    "city": "Greenville-Spartanburg",
+    "state": "South Carolina",
+    "code": "GSP",
+    "address": "1549 GSP Dr, Greer, SC 29651"
+  },
+  {
+    "city": "Guam",
+    "state": "Guam",
+    "code": "GUM",
+    "address": "3232 Hueneme Rd, Barrigada, GU, 96913"
+  },
+  {
+    "city": "Hastings",
+    "state": "Nebraska",
+    "code": "GID",
+    "address": "6365 North Osborne Drive West Hastings, NE 68901"
+  },
+  {
+    "city": "Honolulu",
+    "state": "Hawaii",
+    "code": "HFO[9]",
+    "address": "2525 Correa Rd # 250, Honolulu, HI 96822"
+  },
+  {
+    "city": "Houston/Galveston",
+    "state": "Texas",
+    "code": "HGX",
+    "address": "1353 FM646, Dickinson, TX 77539"
+  },
+  {
+    "city": "Huntsville",
+    "state": "Alabama",
+    "code": "HUN",
+    "address": "320 Sparkman Dr NW, Huntsville, AL 35805"
+  },
+  {
+    "city": "Indianapolis",
+    "state": "Indiana",
+    "code": "IND",
+    "address": "6900 West Hanna Avenue Indianapolis, IN 46241"
+  },
+  {
+    "city": "Jackson",
+    "state": "Kentucky",
+    "code": "JKL",
+    "address": "1329 Airport Road Jackson, KY 41339"
+  },
+  {
+    "city": "Jackson",
+    "state": "Mississippi",
+    "code": "JAN",
+    "address": "234 Weather Service Dr, Flowood, MS 39232"
+  },
+  {
+    "city": "Jacksonville",
+    "state": "Florida",
+    "code": "JAX",
+    "address": "13701 Fang Dr, Jacksonville, FL 32218"
+  },
+  {
+    "city": "Juneau",
+    "state": "Alaska",
+    "code": "AJK",
+    "address": "8500 Mendenhall Loop Rd, Juneau, AK 99801"
+  },
+  {
+    "city": "Kansas City/Pleasant Hill",
+    "state": "Missouri",
+    "code": "EAX",
+    "address": "1803 North 7 Highway Pleasant Hill, MO 64080"
+  },
+  {
+    "city": "Key West",
+    "state": "Florida",
+    "code": "KEY",
+    "address": "1315 White St, Key West, FL 33040"
+  },
+  {
+    "city": "La Crosse",
+    "state": "Wisconsin",
+    "code": "ARX",
+    "address": "N2788 County Road FA La Crosse, WI 54601"
+  },
+  {
+    "city": "Lake Charles",
+    "state": "Louisiana",
+    "code": "LCH",
+    "address": "500 Airport Blvd, Lake Charles, LA 70607"
+  },
+  {
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "code": "VEF",
+    "address": "7851 Dean Martin Dr, Las Vegas, NV 89139"
+  },
+  {
+    "city": "Lincoln",
+    "state": "Illinois",
+    "code": "ILX",
+    "address": "1362 State Route 10 Lincoln, IL 62656"
+  },
+  {
+    "city": "Little Rock",
+    "state": "Arkansas",
+    "code": "LZK",
+    "address": "8400 Remount Rd, North Little Rock, AR 72118"
+  },
+  {
+    "city": "Los Angeles/Oxnard",
+    "state": "California",
+    "code": "LOX",
+    "address": "520 N Elevar St, Oxnard, CA 93030"
+  },
+  {
+    "city": "Louisville",
+    "state": "Kentucky",
+    "code": "LMK",
+    "address": "6201 Theiler Lane Louisville, KY 40229"
+  },
+  {
+    "city": "Lubbock",
+    "state": "Texas",
+    "code": "LUB",
+    "address": "2579 S Loop 289 #100, Lubbock, TX 79423"
+  },
+  {
+    "city": "Marquette",
+    "state": "Michigan",
+    "code": "MQT",
+    "address": "112 Airpark Drive South Negaunee, MI 49866"
+  },
+  {
+    "city": "Medford",
+    "state": "Oregon",
+    "code": "MFR",
+    "address": "4003 Cirrus Dr, Medford, OR 97504"
+  },
+  {
+    "city": "Melbourne",
+    "state": "Florida",
+    "code": "MLB",
+    "address": "421 Croton Rd, Melbourne, FL 32901"
+  },
+  {
+    "city": "Memphis",
+    "state": "Tennessee",
+    "code": "MEG",
+    "address": "7777 Walnut Grove Rd #1, Memphis, TN 38120"
+  },
+  {
+    "city": "Miami",
+    "state": "Florida",
+    "code": "MFL",
+    "address": "11691 SW 17th Street Miami, FL 33165"
+  },
+  {
+    "city": "Midland/Odessa",
+    "state": "Texas",
+    "code": "MAF",
+    "address": "2500 Challenger Dr, Midland, TX 79706"
+  },
+  {
+    "city": "Milwaukee/Sullivan",
+    "state": "Wisconsin",
+    "code": "MKX",
+    "address": "N3533 Hardscrabble Road Dousman, WI 53118"
+  },
+  {
+    "city": "Missoula",
+    "state": "Montana",
+    "code": "MSO",
+    "address": "6633 Aviation Way, Missoula, MT 59808"
+  },
+  {
+    "city": "Mobile/Pensacola",
+    "state": "Alabama",
+    "code": "MOB",
+    "address": "8400 Airport Blvd #11, Mobile, AL 36608"
+  },
+  {
+    "city": "Morristown/Knoxville",
+    "state": "Tennessee",
+    "code": "MRX",
+    "address": "5974 Commerce Blvd, Morristown, TN 37814"
+  },
+  {
+    "city": "Mount Holly/Philadelphia",
+    "state": "New Jersey",
+    "code": "PHI",
+    "address": "732 Woodlane Rd, Mt Holly, NJ 08060"
+  },
+  {
+    "city": "Nashville",
+    "state": "Tennessee",
+    "code": "OHX",
+    "address": "500 Weather Station Rd, Old Hickory, TN 37138"
+  },
+  {
+    "city": "New Orleans/Baton Rouge",
+    "state": "Louisiana",
+    "code": "LIX",
+    "address": "62300 Airport Rd. Slidell, LA 70460"
+  },
+  {
+    "city": "New York/Upton",
+    "state": "New York",
+    "code": "OKX",
+    "address": "175 Brookhaven Ave, Upton, NY 11973"
+  },
+  {
+    "city": "Newport/Morehead City",
+    "state": "North Carolina",
+    "code": "MHX",
+    "address": "533 Roberts Rd, Newport, NC 28570"
+  },
+  {
+    "city": "Norman/Oklahoma City",
+    "state": "Oklahoma",
+    "code": "OUN",
+    "address": "120 David L. Boren Blvd. Suite 2400, Norman, OK 73072"
+  },
+  {
+    "city": "North Platte",
+    "state": "Nebraska",
+    "code": "LBF",
+    "address": "5250 E. Lee Bird Drive North Platte, NE 69101"
+  },
+  {
+    "city": "Northern Indiana",
+    "state": "Indiana",
+    "code": "IWX",
+    "address": "7506 E 850 N Syracuse, IN 46567"
+  },
+  {
+    "city": "Omaha/Valley",
+    "state": "Nebraska",
+    "code": "OAX",
+    "address": "6707 North 288th Street Valley, NE 68064"
+  },
+  {
+    "city": "Paducah",
+    "state": "Kentucky",
+    "code": "PAH",
+    "address": "8250 Kentucky Highway 3520 West Paducah, KY 42086"
+  },
+  {
+    "city": "Peachtree City/Atlanta",
+    "state": "Georgia",
+    "code": "FFC",
+    "address": "4 Falcon Dr, Peachtree City, GA 30269"
+  },
+  {
+    "city": "Pendleton",
+    "state": "Oregon",
+    "code": "PDT",
+    "address": "2001 NW 56th St, Pendleton, OR 97801"
+  },
+  {
+    "city": "Phoenix",
+    "state": "Arizona",
+    "code": "PSR",
+    "address": "2727 E Washington St, NWS PAB 1TA, Phoenix, AZ 85034[10]"
+  },
+  {
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "code": "PBZ",
+    "address": "192 Shafer Rd, Coraopolis, PA 15108"
+  },
+  {
+    "city": "Pocatello",
+    "state": "Idaho",
+    "code": "PIH",
+    "address": "1945 Beechcraft Ave, Pocatello, ID 83204"
+  },
+  {
+    "city": "Portland",
+    "state": "Oregon",
+    "code": "PQR",
+    "address": "5241 NE 122nd Ave, Portland, OR 97230"
+  },
+  {
+    "city": "Pueblo",
+    "state": "Colorado",
+    "code": "PUB",
+    "address": "3 Eaton Way Pueblo, CO 81001"
+  },
+  {
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "code": "RAH",
+    "address": "1005 Capability Dr #300, Raleigh, NC 27606"
+  },
+  {
+    "city": "Rapid City",
+    "state": "South Dakota",
+    "code": "UNR",
+    "address": "300 East Signal Drive Rapid City, SD 57701"
+  },
+  {
+    "city": "Reno",
+    "state": "Nevada",
+    "code": "REV",
+    "address": "2350 Raggio Pkwy, Reno, NV 89512"
+  },
+  {
+    "city": "Riverton",
+    "state": "Wyoming",
+    "code": "RIW",
+    "address": "12744 West US Highway 26 Riverton, WY 82501"
+  },
+  {
+    "city": "Sacramento",
+    "state": "California",
+    "code": "STO",
+    "address": "3310 El Camino Ave # 228, Sacramento, CA 95821"
+  },
+  {
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "code": "SLC",
+    "address": "2242 W North Temple, Salt Lake City, UT 84116"
+  },
+  {
+    "city": "San Angelo",
+    "state": "Texas",
+    "code": "SJT",
+    "address": "7654 Knickerbocker Rd, San Angelo, TX 76904"
+  },
+  {
+    "city": "San Diego",
+    "state": "California",
+    "code": "SGX",
+    "address": "11440 W Bernardo Ct #230, San Diego, CA 92127"
+  },
+  {
+    "city": "San Francisco Bay Area/Monterey",
+    "state": "California",
+    "code": "MTR",
+    "address": "21 Grace Hopper Ave, Monterey, CA 93943"
+  },
+  {
+    "city": "San Joaquin Valley/Hanford",
+    "state": "California",
+    "code": "HNX",
+    "address": "900 Foggy Bottom Rd, Hanford, CA 93230"
+  },
+  {
+    "city": "San Juan",
+    "state": "Puerto Rico",
+    "code": "SJU",
+    "address": "5000 Expreso Román Baldorioty de Castro, Carolina, PR 00979"
+  },
+  {
+    "city": "Seattle",
+    "state": "Washington",
+    "code": "SEW",
+    "address": "7600 Sand Point Way NE, Seattle, WA 98115 [11]"
+  },
+  {
+    "city": "Shreveport",
+    "state": "Louisiana",
+    "code": "SHV",
+    "address": "5655 Hollywood Ave, Shreveport, LA 71109"
+  },
+  {
+    "city": "Sioux Falls",
+    "state": "South Dakota",
+    "code": "FSD",
+    "address": "26 Weather Lane Sioux Falls, SD 57104"
+  },
+  {
+    "city": "Spokane",
+    "state": "Washington",
+    "code": "OTX",
+    "address": "2601 N Rambo Rd, Spokane, WA 99224"
+  },
+  {
+    "city": "Springfield",
+    "state": "Missouri",
+    "code": "SGF",
+    "address": "5805 West Highway EE Springfield, MO 65802"
+  },
+  {
+    "city": "St. Louis",
+    "state": "Missouri",
+    "code": "LSX",
+    "address": "12 Missouri Research Park Drive St. Charles, MO 63304"
+  },
+  {
+    "city": "State College",
+    "state": "Pennsylvania",
+    "code": "CTP",
+    "address": "328 Innovation Blvd, State College, PA 16803"
+  },
+  {
+    "city": "Tallahassee",
+    "state": "Florida",
+    "code": "TAE",
+    "address": "1017 Academic Way FSU, Love Bldg, 4th Floor, Tallahassee, FL 32306-4509"
+  },
+  {
+    "city": "Tampa",
+    "state": "Florida",
+    "code": "TBW",
+    "address": "2525 14th Ave SE, Ruskin, FL 33570"
+  },
+  {
+    "city": "Topeka",
+    "state": "Kansas",
+    "code": "TOP",
+    "address": "1116 NE Strait Avenue Topeka, KS 66616"
+  },
+  {
+    "city": "Tucson",
+    "state": "Arizona",
+    "code": "TWC",
+    "address": "520 N Park Ave #304, Tucson, AZ 85719"
+  },
+  {
+    "city": "Tulsa",
+    "state": "Oklahoma",
+    "code": "TSA",
+    "address": "10159 E 11th St #300, Tulsa, OK 74128"
+  },
+  {
+    "city": "Wakefield",
+    "state": "Virginia",
+    "code": "AKQ",
+    "address": "10009 General Mahone Hwy, Wakefield, VA 23888"
+  },
+  {
+    "city": "Wichita",
+    "state": "Kansas",
+    "code": "ICT",
+    "address": "2142 S. Tyler Road Wichita, KS 67209"
+  },
+  {
+    "city": "Wilmington",
+    "state": "North Carolina",
+    "code": "ILM",
+    "address": "2015 Gardner Dr, Wilmington, NC 28405"
+  },
+  {
+    "city": "Wilmington (de facto “Cincinnati/Wilmington”)",
+    "state": "Ohio",
+    "code": "ILN",
+    "address": "1901 OH-134, Wilmington, OH 45177"
+  }
+]

@@ -1,0 +1,144 @@
+:root {
+  /* Body background */
+  --sand-300: #fffcf5;
+
+  /* Sidebar background */
+  --sand-400: #f3f0e9;
+
+  /* Sidebar border */
+  --sand-500: #cbc9c3;
+
+  /* Sidebar nav item background */
+  --sand-600: #dfddd7;
+
+  /* Main text color */
+  --onyx-500: #141202;
+
+  /* Text highlight */
+  --gold-500: #b17f21;
+
+  /* Spacers */
+  --spacer-md: 1rem;
+  --spacer-sm: 0.5rem;
+
+  /* Border radius */
+  --border-md: 0.5rem;
+
+  /* Fonts */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--sand-300);
+  color: var(--onyx-500);
+  font-size: 14px;
+}
+
+a {
+  color: var(--onyx-500);
+}
+
+.site-grid {
+  display: flex;
+  height: 100%;
+}
+
+/* Main sidebar */
+
+/*
+ Title
+ Subtitle
+ Nav
+*/
+.site-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: var(--spacer-sm);
+  background: var(--sand-400);
+  border-right: 1px solid var(--sand-500);
+  overflow: hidden;
+}
+
+.site-title {
+  margin: 0;
+  padding: 0 var(--spacer-sm);
+  font-size: 1rem;
+}
+
+.site-subtitle {
+  margin: 0 0 var(--spacer-sm);
+  padding: 0 var(--spacer-sm);
+  font-size: 0.8rem;
+}
+
+.site-nav {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+filterable-list::part(search) {
+  position: sticky;
+  top: 0;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: var(--spacer-sm);
+  margin: 0 0 var(--spacer-sm) 0;
+  border: 1px solid var(--sand-500);
+  border-radius: var(--border-md);
+  outline: none;
+  font-size: 14px;
+}
+
+filterable-list::part(list) {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li.hidden {
+  display: none;
+}
+
+.site-nav a {
+  display: block;
+  padding: var(--spacer-sm);
+  border-radius: var(--border-md);
+  text-decoration: none;
+  transition: background ease 0.25s;
+}
+
+.site-nav a:hover {
+  background: var(--sand-600);
+}
+
+/* Main content area */
+.site-main {
+  flex: 1;
+  overflow: hidden;
+}
+
+.discussion-wrapper {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.discussion {
+  height: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: var(--spacer-md);
+}
+
+.discussion-header {
+  margin: 0 0 var(--spacer-md);
+}
+
+.section-header {
+  text-transform: capitalize;
+}

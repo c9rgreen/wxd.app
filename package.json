@@ -1,0 +1,23 @@
+{
+  "name": "wkd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --watch --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-ejs": "^1.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "dayjs": "^1.11.13",
+    "sanitize.css": "^13.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}

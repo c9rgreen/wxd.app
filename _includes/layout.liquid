@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WXD</title>
+    <link rel="stylesheet" href="/assets/styles/sanitize.css" />
+    <link rel="stylesheet" href="/assets/styles/system-ui.css" />
+    <link rel="stylesheet" href="/assets/styles/typography.css" />
+    <link rel="stylesheet" href="/assets/styles/ui-monospace.css" />
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+  </head>
+  <body>
+    <div class="site-grid">
+      <header class="site-sidebar">
+        <h1 class="site-title">WXD</h1>
+        <p class="site-subtitle">Weather Forecast Discussion</p>
+        <nav class="site-nav">
+          <filterable-list>
+            {% for office in offices %}
+              <li>
+                <a href="/office/{{ office.code }}">{{ office.city }}, {{ office.state }}</a>
+              </li>
+            {% endfor %}
+          </filterable-list>
+        </nav>
+      </header>
+      <main class="site-main">
+        {% block main %}{% endblock %}
+      </main>
+    </div>
+    <script src="/assets/scripts/dayjs.min.js"></script>
+    <script src="/assets/scripts/utc.js"></script>
+    <script src="/assets/scripts/timezone.js"></script>
+    <script src="/assets/scripts/customParseFormat.js"></script>
+    <script src="/assets/scripts/main.js"></script>
+  </body>
+</html>
