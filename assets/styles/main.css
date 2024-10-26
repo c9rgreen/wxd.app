@@ -120,6 +120,7 @@ filterable-list::part(list) {
 /* Main content area */
 .site-main {
   flex: 1;
+  padding: 0 0 var(--spacer-md) 0;
   overflow: hidden;
 }
 
