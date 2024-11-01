@@ -1,13 +1,7 @@
 {% layout "layout.liquid" %}
 {% block main %}
 <div id="map" class="main-map"></div>
-<div class="controls">
-  <button onclick="toggleWeather()">Toggle Weather</button>
-  <button onclick="zoomToUserLocation()">Find My Location</button>
-  <select id="layerSelect" class="layer-select" onchange="changeLayer()">
-    <option value="radar">Radar</option>
-    <option value="clouds">Satellite</option>
-  </select>
-  <span id="timestamp" class="timestamp"></span>
+<div>
+  <a href="/search" class="mobile-search-trigger">Search</a>
 </div>
 {% endblock %}

@@ -1,0 +1,17 @@
+{% layout "layout.liquid" %}
+{% block main %}
+  <section>
+    <a href="/" class="mobile-back">← Back</a>
+  </section>
+  <nav class="site-nav mobile-search">
+    <filterable-list>
+      {% for office in offices %}
+        {% assign officeURL = "/office/" | append: office.code | append: "/" %}
+        {% assign isActive = page.url == officeURL %}
+        <li class="{% if isActive %}active{% endif %}">
+          <a href="/office/{{ office.code }}">{{ office.city }}, {{ office.state }}</a>
+        </li>
+      {% endfor %}
+    </filterable-list>
+  </nav>
+{% endblock %}

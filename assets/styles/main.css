@@ -43,6 +43,15 @@ a {
 .site-grid {
   display: flex;
   height: 100%;
+  flex-direction: column;
+}
+
+@media (min-width: 52rem) {
+  .site-grid {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+  }
 }
 
 /* Main sidebar */
@@ -52,13 +61,16 @@ a {
  Subtitle
  Nav
 */
-.site-sidebar {
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-  background: var(--sand-400);
-  border-right: 1px solid var(--sand-500);
-  overflow: hidden;
+
+@media (min-width: 52rem) {
+  .site-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    background: var(--sand-400);
+    border-right: 1px solid var(--sand-500);
+    overflow: hidden;
+  }
 }
 
 .site-title {
@@ -68,15 +80,35 @@ a {
 }
 
 .site-subtitle {
-  margin: 0 0 var(--spacer-sm);
+  margin: 0;
   padding: 0 var(--spacer-sm);
   font-size: 0.8rem;
+}
+
+@media (min-width: 52rem) {
+  .site-subtitle {
+    margin: 0 0 var(--spacer-sm);
+  }
 }
 
 .site-nav {
   flex: 1;
   overflow-y: scroll;
   padding: 0 var(--spacer-sm) var(--spacer-sm);
+}
+
+.site-sidebar > .site-nav {
+  display: none;
+}
+
+@media (min-width: 52rem) {
+  .site-sidebar > .site-nav {
+    display: block;
+  }
+}
+
+.site-nav.mobile-search {
+  padding: var(--spacer-sm);
 }
 
 filterable-list::part(search) {
@@ -121,18 +153,25 @@ filterable-list::part(list) {
 
 /* Credit link */
 .site-credit {
-  background-color: var(--sand-600);
   margin: 0;
-  padding: var(--spacer-sm);
+  padding: 0 var(--spacer-sm) var(--spacer-sm);
   font-size: 0.8rem;
 }
 
-.site-credit a:hover {
+@media (min-width: 52rem) {
+  .site-credit {
+    padding: var(--spacer-sm);
+  }
+}
+
+.site-credit a {
   color: var(--gold-500);
 }
 
 /* Main content area */
 .site-main {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   overflow: hidden;
 }
@@ -180,4 +219,24 @@ filterable-list::part(list) {
 
 .main-map.leaflet-container {
   background-color: rgba(255, 0, 0, 0);
+}
+
+/* Mobile search trigger */
+.mobile-search-trigger {
+  display: block;
+  padding: var(--spacer-sm);
+  color: var(--gold-500);
+  text-align: center;
+}
+
+@media (min-width: 52rem) {
+  .mobile-search-trigger {
+    display: none;
+  }
+}
+
+.mobile-back {
+  display: block;
+  padding: var(--spacer-sm);
+  color: var(--gold-500);
 }

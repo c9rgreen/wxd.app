@@ -13,12 +13,7 @@
   <body>
     <div class="site-grid">
       <header class="site-sidebar">
-        <h1 class="site-title">
-          <a href="/">
-          WXD
-          </a>
-        </h1>
-        <p class="site-subtitle">Weather Forecast Discussion</p>
+        {% include title %}
         <nav class="site-nav">
           <filterable-list>
             {% for office in offices %}
@@ -34,6 +29,7 @@
       </header>
       <main class="site-main">
         {% block main %}{% endblock %}
+
       </main>
     </div>
     <script src="/assets/scripts/dayjs.min.js"></script>
