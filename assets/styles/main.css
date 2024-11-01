@@ -56,7 +56,6 @@ a {
   display: flex;
   flex-direction: column;
   width: 20vw;
-  padding: var(--spacer-sm);
   background: var(--sand-400);
   border-right: 1px solid var(--sand-500);
   overflow: hidden;
@@ -64,7 +63,7 @@ a {
 
 .site-title {
   margin: 0;
-  padding: 0 var(--spacer-sm);
+  padding: var(--spacer-sm) var(--spacer-sm) 0 var(--spacer-sm);
   font-size: 1rem;
 }
 
@@ -77,6 +76,7 @@ a {
 .site-nav {
   flex: 1;
   overflow-y: scroll;
+  padding: 0 var(--spacer-sm) var(--spacer-sm);
 }
 
 filterable-list::part(search) {
@@ -117,6 +117,18 @@ filterable-list::part(list) {
 
 .site-nav a:hover {
   background: var(--sand-600);
+}
+
+/* Credit link */
+.site-credit {
+  background-color: var(--sand-600);
+  margin: 0;
+  padding: var(--spacer-sm);
+  font-size: 0.8rem;
+}
+
+.site-credit a:hover {
+  color: var(--gold-500);
 }
 
 /* Main content area */
@@ -167,5 +179,5 @@ filterable-list::part(list) {
 }
 
 .main-map.leaflet-container {
-  background-color:rgba(255,0,0,0.0);
+  background-color: rgba(255, 0, 0, 0);
 }
