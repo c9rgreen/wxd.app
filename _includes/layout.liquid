@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WXD</title>
+    <meta name="description" content="An experimental website for finding and reading National Weather Service forecast discussions">
+    <meta name="theme-color" content="#fffcf5">
     <link rel="stylesheet" href="/assets/styles/sanitize.css" />
     <link rel="stylesheet" href="/assets/styles/system-ui.css" />
     <link rel="stylesheet" href="/assets/styles/typography.css" />
@@ -13,7 +16,12 @@
   <body>
     <div class="site-grid">
       <header class="site-sidebar">
-        {% include title %}
+        <h1 class="site-title">
+          <a href="/">
+          WXD
+          </a>
+        </h1>
+        <p class="site-subtitle">Weather Forecast Discussion</p>
         <nav class="site-nav">
           <filterable-list>
             {% for office in offices %}

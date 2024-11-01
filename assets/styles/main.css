@@ -61,14 +61,20 @@ a {
  Subtitle
  Nav
 */
+.site-sidebar {
+  padding: 0 var(--spacer-sm);
+  border-bottom: 1px solid var(--sand-500);
+}
 
 @media (min-width: 52rem) {
   .site-sidebar {
     display: flex;
     flex-direction: column;
+    padding: 0;
     width: 20vw;
     background: var(--sand-400);
     border-right: 1px solid var(--sand-500);
+    border-bottom: 0;
     overflow: hidden;
   }
 }
@@ -225,6 +231,7 @@ filterable-list::part(list) {
 .mobile-search-trigger {
   display: block;
   padding: var(--spacer-sm);
+  border-top: 1px solid var(--sand-500);
   color: var(--gold-500);
   text-align: center;
 }
@@ -237,6 +244,6 @@ filterable-list::part(list) {
 
 .mobile-back {
   display: block;
-  padding: var(--spacer-sm);
+  padding: var(--spacer-sm) var(--spacer-md);
   color: var(--gold-500);
 }
