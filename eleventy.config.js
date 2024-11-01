@@ -42,6 +42,9 @@ export default function (eleventyConfig) {
     "node_modules/leaflet/dist/leaflet.js": "assets/scripts/leaflet.js",
   });
   eleventyConfig.addPassthroughCopy({
+    "node_modules/leaflet/dist/leaflet.js.map": "assets/scripts/leaflet.js.map",
+  });
+  eleventyConfig.addPassthroughCopy({
     "node_modules/leaflet/dist/leaflet.css": "assets/styles/leaflet.css",
   });
 
