@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx @11ty/eleventy --watch --serve",
-    "ico": "magick _header/icon.png -define icon:auto-resize=16,32,48 _header/favicon.ico"
+    "build": "npx @11ty/eleventy",
+    "ico": "magick _header/icon.png -define icon:auto-resize=16,32,48 _header/favicon.ico",
+    "deploy": "wrangler pages deploy --project-name wxd _site"
   },
   "keywords": [],
   "author": "",
