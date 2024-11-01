@@ -122,7 +122,6 @@ filterable-list::part(list) {
 /* Main content area */
 .site-main {
   flex: 1;
-  padding: 0 0 var(--spacer-md) 0;
   overflow: hidden;
 }
 
@@ -136,6 +135,12 @@ filterable-list::part(list) {
   max-width: 40rem;
   margin: 0 auto;
   padding: var(--spacer-md);
+}
+
+.discussion::after {
+  content: "";
+  display: block;
+  height: var(--spacer-md);
 }
 
 .discussion > p,
@@ -153,4 +158,14 @@ filterable-list::part(list) {
 
 .section-header {
   text-transform: capitalize;
+}
+
+/* Main map */
+
+.main-map {
+  height: 100%;
+}
+
+.main-map.leaflet-container {
+  background-color:rgba(255,0,0,0.0);
 }

@@ -3,732 +3,1098 @@
     "city": "Aberdeen",
     "state": "South Dakota",
     "code": "ABR",
-    "address": "824 391st Ave S. Aberdeen, SD 57401-9311"
+    "address": "824 391st Ave S. Aberdeen, SD 57401-9311",
+    "latitude": 45.488035,
+    "longitude": -98.412828,
+    "formattedAddress": "391st Avenue, Aberdeen, SD, United States of America"
   },
   {
     "city": "Albany",
     "state": "New York",
     "code": "ALY",
-    "address": "ETEC - National Weather Service 1400 Washington Avenue, Albany, NY 12222"
+    "address": "ETEC - National Weather Service 1400 Washington Avenue, Albany, NY 12222",
+    "latitude": 42.691176,
+    "longitude": -73.824057,
+    "formattedAddress": "1400 Washington Ave, Albany, NY, United States of America"
   },
   {
     "city": "Albuquerque",
     "state": "New Mexico",
     "code": "ABQ",
-    "address": "2341 Clark Carr Loop SE, Albuquerque, NM 87106"
+    "address": "2341 Clark Carr Loop SE, Albuquerque, NM 87106",
+    "latitude": 35.0376657,
+    "longitude": -106.6221284,
+    "formattedAddress": "National Weather Service - Albuquerque, NM, 2341 Clark Carr Loop Southeast, Albuquerque, NM 87106, United States of America"
   },
   {
     "city": "Amarillo",
     "state": "Texas",
     "code": "AMA",
-    "address": "1900 English Rd, Amarillo, TX 79108"
+    "address": "1900 English Rd, Amarillo, TX 79108",
+    "latitude": 35.234161,
+    "longitude": -101.708527,
+    "formattedAddress": "1900 English Road, Amarillo, TX 79108, United States of America"
   },
   {
     "city": "Anchorage",
     "state": "Alaska",
     "code": "AFC",
-    "address": "6930 Sand Lake Rd, Anchorage, AK 99502"
+    "address": "6930 Sand Lake Rd, Anchorage, AK 99502",
+    "latitude": 61.1562399,
+    "longitude": -149.9840605,
+    "formattedAddress": "National Weather Service - Anchorage, AK, 6930 Sand Lake Road, Anchorage, AK 99502, United States of America"
   },
   {
     "city": "Austin/San Antonio",
     "state": "Texas",
     "code": "EWX",
-    "address": "2090 Airport Rd, New Braunfels, TX 78130"
+    "address": "2090 Airport Rd, New Braunfels, TX 78130",
+    "latitude": 29.7069854,
+    "longitude": -98.0336351,
+    "formattedAddress": "2090 Airport Road, New Braunfels, TX 78130, United States of America"
   },
   {
     "city": "Baltimore/Washington",
     "state": "Virginia",
     "code": "LWX",
-    "address": "43858 Weather Service Road, Sterling, VA 20166"
+    "address": "43858 Weather Service Road, Sterling, VA 20166",
+    "latitude": 38.976571,
+    "longitude": -77.4863693,
+    "formattedAddress": "National Weather Service - Baltimore/Washington, 43858 Weather Service Road, Sterling, VA 20166, United States of America"
   },
   {
     "city": "Billings",
     "state": "Montana",
     "code": "BYZ",
-    "address": "2170 Overland Ave, Billings, MT 59102"
+    "address": "2170 Overland Ave, Billings, MT 59102",
+    "latitude": 45.751146,
+    "longitude": -108.569591,
+    "formattedAddress": "2170 Overland Avenue, Billings, MT 59102, United States of America"
   },
   {
     "city": "Binghamton",
     "state": "New York",
     "code": "BGM",
-    "address": "32 Dawes Dr, Johnson City, NY 13790"
+    "address": "32 Dawes Dr, Johnson City, NY 13790",
+    "latitude": 42.2119338,
+    "longitude": -75.9857327,
+    "formattedAddress": "32 Dawes Drive, Village of Johnson City, NY 13790, United States of America"
   },
   {
     "city": "Birmingham",
     "state": "Alabama",
     "code": "BMX",
-    "address": "465 Weather Vane Rd, Calera, AL 35040"
+    "address": "465 Weather Vane Rd, Calera, AL 35040",
+    "latitude": 33.1812418,
+    "longitude": -86.7827258,
+    "formattedAddress": "465 Weather Vane Road, Calera, AL 35040, United States of America"
   },
   {
     "city": "Bismarck",
     "state": "North Dakota",
     "code": "BIS",
-    "address": "2301 University Drive Building 27 Bismarck, ND 58504"
+    "address": "2301 University Drive Building 27 Bismarck, ND 58504",
+    "latitude": 46.765702,
+    "longitude": -100.763237,
+    "formattedAddress": "University Dr, Bismarck, ND, United States of America"
   },
   {
     "city": "Blacksburg/Roanoke",
     "state": "Virginia",
     "code": "RNK",
-    "address": "1750 Forecast Dr, Blacksburg, VA 24060"
+    "address": "1750 Forecast Dr, Blacksburg, VA 24060",
+    "latitude": 37.2040445,
+    "longitude": -80.4141747,
+    "formattedAddress": "National Weather Service - Blacksburg, VA, 1750 Forecast Drive, Blacksburg, VA 24060, United States of America"
   },
   {
     "city": "Boise",
     "state": "Idaho",
     "code": "BOI",
-    "address": "NIFC Building 3807, 3833 Development Ave, Boise, ID 83705"
+    "address": "NIFC Building 3807, 3833 Development Ave, Boise, ID 83705",
+    "latitude": 43.567498,
+    "longitude": -116.207495,
+    "formattedAddress": "3833 Development Ave, Boise, ID, United States of America"
   },
   {
     "city": "Boston/Norton",
     "state": "Massachusetts",
     "code": "BOX",
-    "address": "46 Commerce Way, Norton, MA 02766"
+    "address": "46 Commerce Way, Norton, MA 02766",
+    "latitude": 41.956413,
+    "longitude": -71.1395247,
+    "formattedAddress": "National Weather Service - Boston / Norton, MA, 46 Commerce Way, Norton, Bristol County, MA 02766, United States of America"
   },
   {
     "city": "Brownsville",
     "state": "Texas",
     "code": "BRO",
-    "address": "20 S Vermillion Ave, Brownsville, TX 78521"
+    "address": "20 S Vermillion Ave, Brownsville, TX 78521",
+    "latitude": 25.915577,
+    "longitude": -97.4184189,
+    "formattedAddress": "20 South Vermillion Avenue, Betty Acres Colonia, Brownsville, TX 78521, United States of America"
   },
   {
     "city": "Buffalo",
     "state": "New York",
     "code": "BUF",
-    "address": "587 Aero Drive, Cheektowaga, NY 14225"
+    "address": "587 Aero Drive, Cheektowaga, NY 14225",
+    "latitude": 42.9413462,
+    "longitude": -78.7191449,
+    "formattedAddress": "587 Aero Drive, Buffalo, NY 14225, United States of America"
   },
   {
     "city": "Burlington",
     "state": "Vermont",
     "code": "BTV",
-    "address": "1200 Airport Dr, South Burlington, VT 05403"
+    "address": "1200 Airport Dr, South Burlington, VT 05403",
+    "latitude": 44.4731752,
+    "longitude": -73.1587205,
+    "formattedAddress": "1200 Airport Drive, South Burlington, VT 05403, United States of America"
   },
   {
     "city": "Caribou",
     "state": "Maine",
     "code": "CAR",
-    "address": "810 Main St, Caribou, ME 04736"
+    "address": "810 Main St, Caribou, ME 04736",
+    "latitude": 46.8682905,
+    "longitude": -68.0134544,
+    "formattedAddress": "National Weather Service - Caribou, ME, 810 Main Street, Caribou, ME 04736, United States of America"
   },
   {
     "city": "Chanhassen/Twin Cities",
     "state": "Minnesota",
     "code": "MPX",
-    "address": "1733 Lake Drive West Chanhassen, MN, 55317"
+    "address": "1733 Lake Drive West Chanhassen, MN, 55317",
+    "latitude": 44.850778,
+    "longitude": -93.564615,
+    "formattedAddress": "Lake Drive West, Chanhassen, MN 55317, United States of America"
   },
   {
     "city": "Charleston",
     "state": "South Carolina",
     "code": "CHS",
-    "address": "5777 S Aviation Ave, North Charleston, SC 29406"
+    "address": "5777 S Aviation Ave, North Charleston, SC 29406",
+    "latitude": 32.8986635,
+    "longitude": -80.0294738,
+    "formattedAddress": "5777 South Aviation Avenue, Highland Terrace, North Charleston, SC 29406, United States of America"
   },
   {
     "city": "Charleston",
     "state": "West Virginia",
     "code": "RLX",
-    "address": "1754 Hendrickson Dr, South Charleston, WV 25303"
+    "address": "1754 Hendrickson Dr, South Charleston, WV 25303",
+    "latitude": 38.373507,
+    "longitude": -81.659112,
+    "formattedAddress": "Hendrix Ave, Charleston, WV, United States of America"
   },
   {
     "city": "Cheyenne",
     "state": "Wyoming",
     "code": "CYS",
-    "address": "1301 Airport Parkway Cheyenne, WY 82001"
+    "address": "1301 Airport Parkway Cheyenne, WY 82001",
+    "latitude": 41.1518167,
+    "longitude": -104.8056663,
+    "formattedAddress": "National Weather Service - Cheyenne, WY, 1301 Airport Parkway, Cheyenne, WY 82001, United States of America"
   },
   {
     "city": "Chicago",
     "state": "Illinois",
     "code": "LOT",
-    "address": "333 West University Drive Romeoville, IL 60446"
+    "address": "333 West University Drive Romeoville, IL 60446",
+    "latitude": 41.6041817,
+    "longitude": -88.0846356,
+    "formattedAddress": "National Weather Service - Chicago, IL, 333 University West Drive, Romeoville, IL 60446, United States of America"
   },
   {
     "city": "Cincinnati/Wilmington",
     "state": "Ohio",
     "code": "ILN",
-    "address": "1901 OH-134, Wilmington, OH 45177"
+    "address": "1901 OH-134, Wilmington, OH 45177",
+    "latitude": 39.444985,
+    "longitude": -83.824424,
+    "formattedAddress": "Wilmington, Ohio, United States of America"
   },
   {
     "city": "Cleveland",
     "state": "Ohio",
     "code": "CLE",
-    "address": "925 Keynote Circle Suite 314, Brooklyn Heights, OH 44131"
+    "address": "925 Keynote Circle Suite 314, Brooklyn Heights, OH 44131",
+    "latitude": 41.4120267,
+    "longitude": -81.664926,
+    "formattedAddress": "925 Keynote Circle, Brooklyn Heights, Cuyahoga County, OH 44131, United States of America"
   },
   {
     "city": "Columbia",
     "state": "South Carolina",
     "code": "CAE",
-    "address": "2909 Aviation Way West, Columbia, SC 29170"
+    "address": "2909 Aviation Way West, Columbia, SC 29170",
+    "latitude": 33.945095,
+    "longitude": -81.118954,
+    "formattedAddress": "2909 Aviation Way, West Columbia, SC, United States of America"
   },
   {
     "city": "Corpus Christi",
     "state": "Texas",
     "code": "CRP",
-    "address": "426 Pinson Dr, Corpus Christi, TX 78406"
+    "address": "426 Pinson Dr, Corpus Christi, TX 78406",
+    "latitude": 27.7787224,
+    "longitude": -97.5056923,
+    "formattedAddress": "National Weather Service - Corpus Christi, TX, 426 Pinson Drive, Corpus Christi, TX 78406, United States of America"
   },
   {
     "city": "Davenport/Quad Cities",
     "state": "Iowa",
     "code": "DVN",
-    "address": "9040 N Harrison Street, Davenport, IA, 52806"
+    "address": "9040 N Harrison Street, Davenport, IA, 52806",
+    "latitude": 41.5672817,
+    "longitude": -90.5769729,
+    "formattedAddress": "Harrison Street, Davenport, IA 52806, United States of America"
   },
   {
     "city": "Denver - Boulder",
     "state": "Colorado",
     "code": "BOU",
-    "address": "325 Broadway Boulder, CO 80305"
+    "address": "325 Broadway Boulder, CO 80305",
+    "latitude": 39.9911445,
+    "longitude": -105.2607233,
+    "formattedAddress": "National Weather Service - Denver/Boulder, CO, 325 Broadway, Boulder, CO 80305, United States of America"
   },
   {
     "city": "Des Moines",
     "state": "Iowa",
     "code": "DMX",
-    "address": "9607 NW Beaver Drive Johnston, IA 50131"
+    "address": "9607 NW Beaver Drive Johnston, IA 50131",
+    "latitude": 41.7370661,
+    "longitude": -93.7245977,
+    "formattedAddress": "9607 Northwest Beaver Drive, Johnston, IA 50131, United States of America"
   },
   {
     "city": "Detroit/Pontiac",
     "state": "Michigan",
     "code": "DTX",
-    "address": "9200 White Lake Road White Lake, MI 48386"
+    "address": "9200 White Lake Road White Lake, MI 48386",
+    "latitude": 42.699878,
+    "longitude": -83.459619,
+    "formattedAddress": "White Lake Road, White Lake Charter Township, MI 48383, United States of America"
   },
   {
     "city": "Dodge City",
     "state": "Kansas",
     "code": "DDC",
-    "address": "104 Airport Road Dodge City, KS, 67801"
+    "address": "104 Airport Road Dodge City, KS, 67801",
+    "latitude": 37.7524941,
+    "longitude": -99.9698651,
+    "formattedAddress": "104 Airport Road, Dodge City, KS 67801, United States of America"
   },
   {
     "city": "Duluth",
     "state": "Minnesota",
     "code": "DLH",
-    "address": "5027 Miller Trunk Highway Duluth, MN 55811"
+    "address": "5027 Miller Trunk Highway Duluth, MN 55811",
+    "latitude": 46.8371497,
+    "longitude": -92.2106124,
+    "formattedAddress": "National Weather Service - Duluth, MN, 5027 Miller Trunk Highway, Duluth Heights, Duluth, MN 55811, United States of America"
   },
   {
     "city": "El Paso",
     "state": "Texas",
     "code": "EPZ",
-    "address": "7955 Airport Rd, Santa Teresa, NM 88008"
+    "address": "7955 Airport Rd, Santa Teresa, NM 88008",
+    "latitude": 31.8741764,
+    "longitude": -106.6996878,
+    "formattedAddress": "7955 Airport Road, Strauss, Santa Teresa, NM 88008, United States of America"
   },
   {
     "city": "Elko",
     "state": "Nevada",
     "code": "LKN",
-    "address": "3720 Paradise Dr, Elko, NV 89801"
+    "address": "3720 Paradise Dr, Elko, NV 89801",
+    "latitude": 40.8593374,
+    "longitude": -115.7418761,
+    "formattedAddress": "3720 Paradise Drive, Elko, NV 89801, United States of America"
   },
   {
     "city": "Eureka",
     "state": "California",
     "code": "EKA",
-    "address": "300 Startare Dr, Eureka, CA 95501"
+    "address": "300 Startare Dr, Eureka, CA 95501",
+    "latitude": 40.8099407,
+    "longitude": -124.1597177,
+    "formattedAddress": "National Weather Service - Eureka, CA, 300 Startare Drive, Eureka, CA 95501, United States of America"
   },
   {
     "city": "Fairbanks",
     "state": "Alaska",
     "code": "AFG",
-    "address": "UAF-Akasofu Building, Fairbanks, AK 99775-7345"
+    "address": "UAF-Akasofu Building, Fairbanks, AK 99775-7345",
+    "latitude": 64.859078,
+    "longitude": -147.826709,
+    "formattedAddress": "Fairbanks, Alaska, United States of America"
   },
   {
     "city": "Flagstaff",
     "state": "Arizona",
     "code": "FGZ",
-    "address": "Building 49 Hughes Ave, Bellemont, AZ 86015"
+    "address": "Building 49 Hughes Ave, Bellemont, AZ 86015",
+    "latitude": 35.6308,
+    "longitude": -112.0524,
+    "formattedAddress": "Coconino County, AZ 86015, United States of America"
   },
   {
     "city": "Fort Worth-Dallas",
     "state": "Texas",
     "code": "FWD",
-    "address": "3401 Northern Cross Blvd, Fort Worth, TX 76137"
+    "address": "3401 Northern Cross Blvd, Fort Worth, TX 76137",
+    "latitude": 32.8349038,
+    "longitude": -97.2987429,
+    "formattedAddress": "National Weather Service - Fort Worth/Dallas, TX, 3401 Northern Cross Boulevard, Melody Hills, Fort Worth, TX 76117, United States of America"
   },
   {
     "city": "Gaylord",
     "state": "Michigan",
     "code": "APX",
-    "address": "8800 Passenheim Road Gaylord, MI 49735"
+    "address": "8800 Passenheim Road Gaylord, MI 49735",
+    "latitude": 44.905456,
+    "longitude": -84.718053,
+    "formattedAddress": "Passenheim Rd, Gaylord, MI, United States of America"
   },
   {
     "city": "Glasgow",
     "state": "Montana",
     "code": "GGW",
-    "address": "92 Airport Rd, Glasgow, MT 59230"
+    "address": "92 Airport Rd, Glasgow, MT 59230",
+    "latitude": 48.2046683,
+    "longitude": -106.613895,
+    "formattedAddress": "92 Airport Road, Glasgow, MT 59230, United States of America"
   },
   {
     "city": "Goodland",
     "state": "Kansas",
     "code": "GLD",
-    "address": "920 Armory Road Goodland, KS 67735"
+    "address": "920 Armory Road Goodland, KS 67735",
+    "latitude": 39.365747,
+    "longitude": -101.702701,
+    "formattedAddress": "Armory Road, Goodland, KS 67735, United States of America"
   },
   {
     "city": "Grand Forks",
     "state": "North Dakota",
     "code": "FGF",
-    "address": "4797 Technology Circle Grand Forks, ND 58203"
+    "address": "4797 Technology Circle Grand Forks, ND 58203",
+    "latitude": 47.9220838,
+    "longitude": -97.0988345,
+    "formattedAddress": "4797 Technology Circle, Grand Forks, ND 58203, United States of America"
   },
   {
     "city": "Grand Junction",
     "state": "Colorado",
     "code": "GJT",
-    "address": "2844 Aviators Way Grand Junction, CO 81506"
+    "address": "2844 Aviators Way Grand Junction, CO 81506",
+    "latitude": 39.1199779,
+    "longitude": -108.5251526,
+    "formattedAddress": "National Weather Service - Grand Junction, CO, 2844 Aviators Way, Grand Junction, CO 81506, United States of America"
   },
   {
     "city": "Grand Rapids",
     "state": "Michigan",
     "code": "GRR",
-    "address": "4899 Tim Dougherty Dr, Grand Rapids, MI 49512"
+    "address": "4899 Tim Dougherty Dr, Grand Rapids, MI 49512",
+    "latitude": 42.8929966,
+    "longitude": -85.5448118,
+    "formattedAddress": "National Weather Service - Grand Rapids, MI, 4899 Tim Dougherty Drive Southeast, Grand Rapids, MI 49512, United States of America"
   },
   {
     "city": "Gray/Portland",
     "state": "Maine",
     "code": "GYX",
-    "address": "1 Weather Ln, Gray, ME 04039"
+    "address": "1 Weather Ln, Gray, ME 04039",
+    "latitude": 43.8927034,
+    "longitude": -70.254368,
+    "formattedAddress": "National Weather Service - Gray/Portland, ME, 1 Weather Lane, Gray, ME 04039, United States of America"
   },
   {
     "city": "Great Falls",
     "state": "Montana",
     "code": "TFX",
-    "address": "5324 Tri Hill Frontage Rd, Great Falls, MT 59404"
+    "address": "5324 Tri Hill Frontage Rd, Great Falls, MT 59404",
+    "latitude": 47.461974,
+    "longitude": -111.385018,
+    "formattedAddress": "Tri Hill Frontage Rd, Great Falls, MT, United States of America"
   },
   {
     "city": "Green Bay",
     "state": "Wisconsin",
     "code": "GRB",
-    "address": "2485 South Point Road Green Bay, WI 54313"
+    "address": "2485 South Point Road Green Bay, WI 54313",
+    "latitude": 44.4986244,
+    "longitude": -88.1121216,
+    "formattedAddress": "2485 South Point Road, Ashwaubenon, WI 54313, United States of America"
   },
   {
     "city": "Greenville-Spartanburg",
     "state": "South Carolina",
     "code": "GSP",
-    "address": "1549 GSP Dr, Greer, SC 29651"
+    "address": "1549 GSP Dr, Greer, SC 29651",
+    "latitude": 34.8788995,
+    "longitude": -82.2245387,
+    "formattedAddress": "1549 GSP Drive, Greer, SC 29651, United States of America"
   },
   {
     "city": "Guam",
     "state": "Guam",
     "code": "GUM",
-    "address": "3232 Hueneme Rd, Barrigada, GU, 96913"
+    "address": "3232 Hueneme Rd, Barrigada, GU, 96913",
+    "latitude": 36.902,
+    "longitude": -89.8237,
+    "formattedAddress": "Guam, Missouri, United States of America"
   },
   {
     "city": "Hastings",
     "state": "Nebraska",
     "code": "GID",
-    "address": "6365 North Osborne Drive West Hastings, NE 68901"
+    "address": "6365 North Osborne Drive West Hastings, NE 68901",
+    "latitude": 40.640657,
+    "longitude": -98.382443,
+    "formattedAddress": "Osborne Dr W, Hastings, NE, United States of America"
   },
   {
     "city": "Honolulu",
     "state": "Hawaii",
     "code": "HFO",
-    "address": "2525 Correa Rd # 250, Honolulu, HI 96822"
+    "address": "2525 Correa Rd # 250, Honolulu, HI 96822",
+    "latitude": 21.2981203,
+    "longitude": -157.816614,
+    "formattedAddress": "Hawaii Institute of Geophysics, 2525 Correa Road, East Honolulu, HI 96822, United States of America"
   },
   {
     "city": "Houston/Galveston",
     "state": "Texas",
     "code": "HGX",
-    "address": "1353 FM646, Dickinson, TX 77539"
+    "address": "1353 FM646, Dickinson, TX 77539",
+    "latitude": 29.456169,
+    "longitude": -95.065987,
+    "formattedAddress": "FM, Dickinson, TX, United States of America"
   },
   {
     "city": "Huntsville",
     "state": "Alabama",
     "code": "HUN",
-    "address": "320 Sparkman Dr NW, Huntsville, AL 35805"
+    "address": "320 Sparkman Dr NW, Huntsville, AL 35805",
+    "latitude": 34.7248992,
+    "longitude": -86.6449794,
+    "formattedAddress": "National Space Science and Technology Center, 320 Sparkman Drive Northwest, Huntsville, AL 35805, United States of America"
   },
   {
     "city": "Indianapolis",
     "state": "Indiana",
     "code": "IND",
-    "address": "6900 West Hanna Avenue Indianapolis, IN 46241"
+    "address": "6900 West Hanna Avenue Indianapolis, IN 46241",
+    "latitude": 39.7064641,
+    "longitude": -86.2806537,
+    "formattedAddress": "National Weather Service - Indianapolis, IN, 6900 West Hanna Avenue, Indianapolis, IN 46241, United States of America"
   },
   {
     "city": "Jackson",
     "state": "Kentucky",
     "code": "JKL",
-    "address": "1329 Airport Road Jackson, KY 41339"
+    "address": "1329 Airport Road Jackson, KY 41339",
+    "latitude": 37.57805,
+    "longitude": -83.315332,
+    "formattedAddress": "Airport Rd, Jackson, KY, United States of America"
   },
   {
     "city": "Jackson",
     "state": "Mississippi",
     "code": "JAN",
-    "address": "234 Weather Service Dr, Flowood, MS 39232"
+    "address": "234 Weather Service Dr, Flowood, MS 39232",
+    "latitude": 32.319786,
+    "longitude": -90.0812695,
+    "formattedAddress": "234 Weather Service Drive, Jackson, MS 39232, United States of America"
   },
   {
     "city": "Jacksonville",
     "state": "Florida",
     "code": "JAX",
-    "address": "13701 Fang Dr, Jacksonville, FL 32218"
+    "address": "13701 Fang Dr, Jacksonville, FL 32218",
+    "latitude": 30.4840423,
+    "longitude": -81.7016937,
+    "formattedAddress": "National Weather Service - Jacksonville, FL, 13701 Fang Drive, Jacksonville, FL 32218, United States of America"
   },
   {
     "city": "Juneau",
     "state": "Alaska",
     "code": "AJK",
-    "address": "8500 Mendenhall Loop Rd, Juneau, AK 99801"
+    "address": "8500 Mendenhall Loop Rd, Juneau, AK 99801",
+    "latitude": 58.3987676,
+    "longitude": -134.5720896,
+    "formattedAddress": "8500 Mendenhall Loop Road, Mendenhall Valley, Juneau, AK 99801, United States of America"
   },
   {
     "city": "Kansas City/Pleasant Hill",
     "state": "Missouri",
     "code": "EAX",
-    "address": "1803 North 7 Highway Pleasant Hill, MO 64080"
+    "address": "1803 North 7 Highway Pleasant Hill, MO 64080",
+    "latitude": 38.849491,
+    "longitude": -94.267144,
+    "formattedAddress": "State Hwy 7, Pleasant Hill, MO, United States of America"
   },
   {
     "city": "Key West",
     "state": "Florida",
     "code": "KEY",
-    "address": "1315 White St, Key West, FL 33040"
+    "address": "1315 White St, Key West, FL 33040",
+    "latitude": 24.5526704,
+    "longitude": -81.7884863,
+    "formattedAddress": "1315 White Street, Key West, FL 33040, United States of America"
   },
   {
     "city": "La Crosse",
     "state": "Wisconsin",
     "code": "ARX",
-    "address": "N2788 County Road FA La Crosse, WI 54601"
+    "address": "N2788 County Road FA La Crosse, WI 54601",
+    "latitude": 43.819042,
+    "longitude": -91.186927,
+    "formattedAddress": "2788 Co Rd Fa, La Crosse, WI, United States of America"
   },
   {
     "city": "Lake Charles",
     "state": "Louisiana",
     "code": "LCH",
-    "address": "500 Airport Blvd, Lake Charles, LA 70607"
+    "address": "500 Airport Blvd, Lake Charles, LA 70607",
+    "latitude": 30.12868,
+    "longitude": -93.213476,
+    "formattedAddress": "Airport Blvd, Lake Charles, LA, United States of America"
   },
   {
     "city": "Las Vegas",
     "state": "Nevada",
     "code": "VEF",
-    "address": "7851 Dean Martin Dr, Las Vegas, NV 89139"
+    "address": "7851 Dean Martin Dr, Las Vegas, NV 89139",
+    "latitude": 36.0471238,
+    "longitude": -115.183672,
+    "formattedAddress": "7851 Dean Martin Drive, Enterprise, NV 89139, United States of America"
   },
   {
     "city": "Lincoln",
     "state": "Illinois",
     "code": "ILX",
-    "address": "1362 State Route 10 Lincoln, IL 62656"
+    "address": "1362 State Route 10 Lincoln, IL 62656",
+    "latitude": 40.157924,
+    "longitude": -89.39103,
+    "formattedAddress": "1362 State Rte 10, Lincoln, IL, United States of America"
   },
   {
     "city": "Little Rock",
     "state": "Arkansas",
     "code": "LZK",
-    "address": "8400 Remount Rd, North Little Rock, AR 72118"
+    "address": "8400 Remount Rd, North Little Rock, AR 72118",
+    "latitude": 34.811743,
+    "longitude": -92.2661227,
+    "formattedAddress": "Remount Road, Tanglewood, North Little Rock, AR 72118, United States of America"
   },
   {
     "city": "Los Angeles/Oxnard",
     "state": "California",
     "code": "LOX",
-    "address": "520 N Elevar St, Oxnard, CA 93030"
+    "address": "520 N Elevar St, Oxnard, CA 93030",
+    "latitude": 34.2053608,
+    "longitude": -119.1380542,
+    "formattedAddress": "520 North Elevar Street, Oxnard, CA 93030, United States of America"
   },
   {
     "city": "Louisville",
     "state": "Kentucky",
     "code": "LMK",
-    "address": "6201 Theiler Lane Louisville, KY 40229"
+    "address": "6201 Theiler Lane Louisville, KY 40229",
+    "latitude": 38.1149102,
+    "longitude": -85.6450657,
+    "formattedAddress": "National Weather Service - Louisville, KY, 6201 Theiler Lane, Louisville, KY 40229, United States of America"
   },
   {
     "city": "Lubbock",
     "state": "Texas",
     "code": "LUB",
-    "address": "2579 S Loop 289 #100, Lubbock, TX 79423"
+    "address": "2579 S Loop 289 #100, Lubbock, TX 79423",
+    "latitude": 33.5283472,
+    "longitude": -101.8763222,
+    "formattedAddress": "National Weather Service - Lubbock, TX, 2579 South Loop 289, Lubbock, TX 79423, United States of America"
   },
   {
     "city": "Marquette",
     "state": "Michigan",
     "code": "MQT",
-    "address": "112 Airpark Drive South Negaunee, MI 49866"
+    "address": "112 Airpark Drive South Negaunee, MI 49866",
+    "latitude": 46.4991,
+    "longitude": -87.6118,
+    "formattedAddress": "Negaunee, Michigan, United States of America"
   },
   {
     "city": "Medford",
     "state": "Oregon",
     "code": "MFR",
-    "address": "4003 Cirrus Dr, Medford, OR 97504"
+    "address": "4003 Cirrus Dr, Medford, OR 97504",
+    "latitude": 42.3754922,
+    "longitude": -122.8823468,
+    "formattedAddress": "4003 Cirrus Drive, Medford, OR 97504, United States of America"
   },
   {
     "city": "Melbourne",
     "state": "Florida",
     "code": "MLB",
-    "address": "421 Croton Rd, Melbourne, FL 32901"
+    "address": "421 Croton Rd, Melbourne, FL 32901",
+    "latitude": 28.1135871,
+    "longitude": -80.6548103,
+    "formattedAddress": "421 Croton Road, Melbourne, FL 32935, United States of America"
   },
   {
     "city": "Memphis",
     "state": "Tennessee",
     "code": "MEG",
-    "address": "7777 Walnut Grove Rd #1, Memphis, TN 38120"
+    "address": "7777 Walnut Grove Rd #1, Memphis, TN 38120",
+    "latitude": 35.1294419,
+    "longitude": -89.8036427,
+    "formattedAddress": "National Weather Service - Memphis, TN, 7777 Walnut Grove Road, Memphis, TN 38120, United States of America"
   },
   {
     "city": "Miami",
     "state": "Florida",
     "code": "MFL",
-    "address": "11691 SW 17th Street Miami, FL 33165"
+    "address": "11691 SW 17th Street Miami, FL 33165",
+    "latitude": 25.7544888,
+    "longitude": -80.3836212,
+    "formattedAddress": "National Hurricane Center, 11691 Southwest 17th Street, Miami, FL 33165, United States of America"
   },
   {
     "city": "Midland/Odessa",
     "state": "Texas",
     "code": "MAF",
-    "address": "2500 Challenger Dr, Midland, TX 79706"
+    "address": "2500 Challenger Dr, Midland, TX 79706",
+    "latitude": 31.9425007,
+    "longitude": -102.1891402,
+    "formattedAddress": "National Weather Service - Midland/Odessa, TX, 2500 Challenger Drive, Midland, TX 79706, United States of America"
   },
   {
     "city": "Milwaukee/Sullivan",
     "state": "Wisconsin",
     "code": "MKX",
-    "address": "N3533 Hardscrabble Road Dousman, WI 53118"
+    "address": "N3533 Hardscrabble Road Dousman, WI 53118",
+    "latitude": 42.9680118,
+    "longitude": -88.5491601,
+    "formattedAddress": "N3533 Hardscrabble Road, Dousman, Sullivan, WI 53118, United States of America"
   },
   {
     "city": "Missoula",
     "state": "Montana",
     "code": "MSO",
-    "address": "6633 Aviation Way, Missoula, MT 59808"
+    "address": "6633 Aviation Way, Missoula, MT 59808",
+    "latitude": 46.9204585,
+    "longitude": -114.0822186,
+    "formattedAddress": "Aviation Way East, Missoula, MT 59808, United States of America"
   },
   {
     "city": "Mobile/Pensacola",
     "state": "Alabama",
     "code": "MOB",
-    "address": "8400 Airport Blvd #11, Mobile, AL 36608"
+    "address": "8400 Airport Blvd #11, Mobile, AL 36608",
+    "latitude": 30.6790727,
+    "longitude": -88.2365899,
+    "formattedAddress": "8400 Airport Boulevard, Mobile, AL 36608, United States of America"
   },
   {
     "city": "Morristown/Knoxville",
     "state": "Tennessee",
     "code": "MRX",
-    "address": "5974 Commerce Blvd, Morristown, TN 37814"
+    "address": "5974 Commerce Blvd, Morristown, TN 37814",
+    "latitude": 36.1651089,
+    "longitude": -83.4013634,
+    "formattedAddress": "Commerce Boulevard, Morristown, TN 37814, United States of America"
   },
   {
     "city": "Mount Holly/Philadelphia",
     "state": "New Jersey",
     "code": "PHI",
-    "address": "732 Woodlane Rd, Mt Holly, NJ 08060"
+    "address": "732 Woodlane Rd, Mt Holly, NJ 08060",
+    "latitude": 40.0134405,
+    "longitude": -74.817469,
+    "formattedAddress": "National Weather Service - Philadelphia/Mount Holly, NJ, 732 Woodlane Road, Woodlane, Mount Holly Township, NJ 08060, United States of America"
   },
   {
     "city": "Nashville",
     "state": "Tennessee",
     "code": "OHX",
-    "address": "500 Weather Station Rd, Old Hickory, TN 37138"
+    "address": "500 Weather Station Rd, Old Hickory, TN 37138",
+    "latitude": 36.090081,
+    "longitude": -87.759545,
+    "formattedAddress": "Station Dr, Waverly, TN, United States of America"
   },
   {
     "city": "New Orleans/Baton Rouge",
     "state": "Louisiana",
     "code": "LIX",
-    "address": "62300 Airport Rd. Slidell, LA 70460"
+    "address": "62300 Airport Rd. Slidell, LA 70460",
+    "latitude": 30.3371748,
+    "longitude": -89.8252735,
+    "formattedAddress": "National Weather Service - New Orleans/Baton Rouge, 62300 Airport Road, Slidell, LA 70460, United States of America"
   },
   {
     "city": "New York/Upton",
     "state": "New York",
     "code": "OKX",
-    "address": "175 Brookhaven Ave, Upton, NY 11973"
+    "address": "175 Brookhaven Ave, Upton, NY 11973",
+    "latitude": 40.8655277,
+    "longitude": -72.8646515,
+    "formattedAddress": "National Weather Service - New York, NY, 175 Brookhaven Avenue, Upton, Brookhaven, NY 11973, United States of America"
   },
   {
     "city": "Newport/Morehead City",
     "state": "North Carolina",
     "code": "MHX",
-    "address": "533 Roberts Rd, Newport, NC 28570"
+    "address": "533 Roberts Rd, Newport, NC 28570",
+    "latitude": 34.7763048,
+    "longitude": -76.8765933,
+    "formattedAddress": "National Weather Service - Newport/Morehead City, 533 Roberts Road, Newport, Carteret County, NC 28570, United States of America"
   },
   {
     "city": "Norman/Oklahoma City",
     "state": "Oklahoma",
     "code": "OUN",
-    "address": "120 David L. Boren Blvd. Suite 2400, Norman, OK 73072"
+    "address": "120 David L. Boren Blvd. Suite 2400, Norman, OK 73072",
+    "latitude": 35.182911,
+    "longitude": -97.4400409,
+    "formattedAddress": "120 David L Boren Boulevard, Norman, OK 73072, United States of America"
   },
   {
     "city": "North Platte",
     "state": "Nebraska",
     "code": "LBF",
-    "address": "5250 E. Lee Bird Drive North Platte, NE 69101"
+    "address": "5250 E. Lee Bird Drive North Platte, NE 69101",
+    "latitude": 41.121627,
+    "longitude": -100.790475,
+    "formattedAddress": "Lee Ct, North Platte, NE, United States of America"
   },
   {
     "city": "Northern Indiana",
     "state": "Indiana",
     "code": "IWX",
-    "address": "7506 E 850 N Syracuse, IN 46567"
+    "address": "7506 E 850 N Syracuse, IN 46567",
+    "latitude": 41.357926,
+    "longitude": -85.701296,
+    "formattedAddress": "E 850 N, Syracuse, IN, United States of America"
   },
   {
     "city": "Omaha/Valley",
     "state": "Nebraska",
     "code": "OAX",
-    "address": "6707 North 288th Street Valley, NE 68064"
+    "address": "6707 North 288th Street Valley, NE 68064",
+    "latitude": 41.3201524,
+    "longitude": -96.3672038,
+    "formattedAddress": "National Weather Service - Omaha/Valley, NE, 6707 North 288th Street, Valley, NE 68064, United States of America"
   },
   {
     "city": "Paducah",
     "state": "Kentucky",
     "code": "PAH",
-    "address": "8250 Kentucky Highway 3520 West Paducah, KY 42086"
+    "address": "8250 Kentucky Highway 3520 West Paducah, KY 42086",
+    "latitude": 37.078684,
+    "longitude": -88.907054,
+    "formattedAddress": "Paducah Rd, Kevil, KY, United States of America"
   },
   {
     "city": "Peachtree City/Atlanta",
     "state": "Georgia",
     "code": "FFC",
-    "address": "4 Falcon Dr, Peachtree City, GA 30269"
+    "address": "4 Falcon Dr, Peachtree City, GA 30269",
+    "latitude": 33.361741,
+    "longitude": -84.5673355,
+    "formattedAddress": "4 Falcon Drive, Peachtree City, GA 30269, United States of America"
   },
   {
     "city": "Pendleton",
     "state": "Oregon",
     "code": "PDT",
-    "address": "2001 NW 56th St, Pendleton, OR 97801"
+    "address": "2001 NW 56th St, Pendleton, OR 97801",
+    "latitude": 45.690392,
+    "longitude": -118.85185,
+    "formattedAddress": "NW 56th St, Pendleton, OR, United States of America"
   },
   {
     "city": "Phoenix",
     "state": "Arizona",
     "code": "PSR",
-    "address": "2727 E Washington St, NWS PAB 1TA, Phoenix, AZ 85034"
+    "address": "2727 E Washington St, NWS PAB 1TA, Phoenix, AZ 85034",
+    "latitude": 33.44816,
+    "longitude": -112.023286,
+    "formattedAddress": "E Washington St, Phoenix, AZ, United States of America"
   },
   {
     "city": "Pittsburgh",
     "state": "Pennsylvania",
     "code": "PBZ",
-    "address": "192 Shafer Rd, Coraopolis, PA 15108"
+    "address": "192 Shafer Rd, Coraopolis, PA 15108",
+    "latitude": 40.532589,
+    "longitude": -80.217912,
+    "formattedAddress": "192 Shafer Rd, Coraopolis, PA, United States of America"
   },
   {
     "city": "Pocatello",
     "state": "Idaho",
     "code": "PIH",
-    "address": "1945 Beechcraft Ave, Pocatello, ID 83204"
+    "address": "1945 Beechcraft Ave, Pocatello, ID 83204",
+    "latitude": 42.9034373,
+    "longitude": -112.58771,
+    "formattedAddress": "1945 Beechcraft Avenue, Pocatello, ID 83204, United States of America"
   },
   {
     "city": "Portland",
     "state": "Oregon",
     "code": "PQR",
-    "address": "5241 NE 122nd Ave, Portland, OR 97230"
+    "address": "5241 NE 122nd Ave, Portland, OR 97230",
+    "latitude": 45.5610564,
+    "longitude": -122.5383417,
+    "formattedAddress": "5241 Northeast 122nd Avenue, Portland, OR 97230, United States of America"
   },
   {
     "city": "Pueblo",
     "state": "Colorado",
     "code": "PUB",
-    "address": "3 Eaton Way Pueblo, CO 81001"
+    "address": "3 Eaton Way Pueblo, CO 81001",
+    "latitude": 38.279742,
+    "longitude": -104.5209429,
+    "formattedAddress": "National Weather Service - Pueblo, 3 Eaton Way, Pueblo County, CO 81001, United States of America"
   },
   {
     "city": "Raleigh",
     "state": "North Carolina",
     "code": "RAH",
-    "address": "1005 Capability Dr #300, Raleigh, NC 27606"
+    "address": "1005 Capability Dr #300, Raleigh, NC 27606",
+    "latitude": 35.7732601,
+    "longitude": -78.6804968,
+    "formattedAddress": "1005 Capability Drive, Isle Forest, Raleigh, NC 27606, United States of America"
   },
   {
     "city": "Rapid City",
     "state": "South Dakota",
     "code": "UNR",
-    "address": "300 East Signal Drive Rapid City, SD 57701"
+    "address": "300 East Signal Drive Rapid City, SD 57701",
+    "latitude": 44.0729913,
+    "longitude": -103.2103366,
+    "formattedAddress": "National Weather Service Upper Air - Rapid City, 300 East Signal Drive, Rapid City, SD 57701, United States of America"
   },
   {
     "city": "Reno",
     "state": "Nevada",
     "code": "REV",
-    "address": "2350 Raggio Pkwy, Reno, NV 89512"
+    "address": "2350 Raggio Pkwy, Reno, NV 89512",
+    "latitude": 39.5683023,
+    "longitude": -119.7966268,
+    "formattedAddress": "National Weather Service - Reno, NV, 2350 Raggio Parkway, Reno, NV 89512, United States of America"
   },
   {
     "city": "Riverton",
     "state": "Wyoming",
     "code": "RIW",
-    "address": "12744 West US Highway 26 Riverton, WY 82501"
+    "address": "12744 West US Highway 26 Riverton, WY 82501",
+    "latitude": 43.063907,
+    "longitude": -108.478052,
+    "formattedAddress": "US Hwy 26, Riverton, WY, United States of America"
   },
   {
     "city": "Sacramento",
     "state": "California",
     "code": "STO",
-    "address": "3310 El Camino Ave # 228, Sacramento, CA 95821"
+    "address": "3310 El Camino Ave # 228, Sacramento, CA 95821",
+    "latitude": 38.609116,
+    "longitude": -121.3871832,
+    "formattedAddress": "National Weather Service - Sacramento, CA, 3310 El Camino Avenue, Arden-Arcade, CA 95821, United States of America"
   },
   {
     "city": "Salt Lake City",
     "state": "Utah",
     "code": "SLC",
-    "address": "2242 W North Temple, Salt Lake City, UT 84116"
+    "address": "2242 W North Temple, Salt Lake City, UT 84116",
+    "latitude": 40.771581,
+    "longitude": -111.954514,
+    "formattedAddress": "W North Temple, Salt Lake City, UT, United States of America"
   },
   {
     "city": "San Angelo",
     "state": "Texas",
     "code": "SJT",
-    "address": "7654 Knickerbocker Rd, San Angelo, TX 76904"
+    "address": "7654 Knickerbocker Rd, San Angelo, TX 76904",
+    "latitude": 31.3706625,
+    "longitude": -100.4947272,
+    "formattedAddress": "National Weather Service - San Angelo, TX, 7654 Knickerbocker Road, San Angelo, TX 76904, United States of America"
   },
   {
     "city": "San Diego",
     "state": "California",
     "code": "SGX",
-    "address": "11440 W Bernardo Ct #230, San Diego, CA 92127"
+    "address": "11440 W Bernardo Ct #230, San Diego, CA 92127",
+    "latitude": 33.022687,
+    "longitude": -117.083014,
+    "formattedAddress": "11440 West Bernardo Court, San Diego, CA 92127, United States of America"
   },
   {
     "city": "San Francisco Bay Area/Monterey",
     "state": "California",
     "code": "MTR",
-    "address": "21 Grace Hopper Ave, Monterey, CA 93943"
+    "address": "21 Grace Hopper Ave, Monterey, CA 93943",
+    "latitude": 36.5928175,
+    "longitude": -121.8556284,
+    "formattedAddress": "National Weather Service - San Francisco Bay Area, CA, 21 Grace Hopper Avenue, Monterey, CA 93943, United States of America"
   },
   {
     "city": "San Joaquin Valley/Hanford",
     "state": "California",
     "code": "HNX",
-    "address": "900 Foggy Bottom Rd, Hanford, CA 93230"
+    "address": "900 Foggy Bottom Rd, Hanford, CA 93230",
+    "latitude": 36.327466,
+    "longitude": -119.635397,
+    "formattedAddress": "900 Foggy Bottom Rd, Hanford, CA, United States of America"
   },
   {
     "city": "San Juan",
     "state": "Puerto Rico",
     "code": "SJU",
-    "address": "5000 Expreso Román Baldorioty de Castro, Carolina, PR 00979"
+    "address": "5000 Expreso Román Baldorioty de Castro, Carolina, PR 00979",
+    "latitude": 18.4318755,
+    "longitude": -66.0111542,
+    "formattedAddress": "Expreso Román Baldorioty de Castro, Carolina, PR 00979, United States of America"
   },
   {
     "city": "Seattle",
     "state": "Washington",
     "code": "SEW",
-    "address": "7600 Sand Point Way NE, Seattle, WA 98115"
+    "address": "7600 Sand Point Way NE, Seattle, WA 98115",
+    "latitude": 47.6860315,
+    "longitude": -122.2592253,
+    "formattedAddress": "NE NOAA Dr & Guard Shack, 7600 Sand Point Way Northeast, Seattle, WA 98115, United States of America"
   },
   {
     "city": "Shreveport",
     "state": "Louisiana",
     "code": "SHV",
-    "address": "5655 Hollywood Ave, Shreveport, LA 71109"
+    "address": "5655 Hollywood Ave, Shreveport, LA 71109",
+    "latitude": 32.451093,
+    "longitude": -93.8415988,
+    "formattedAddress": "National Weather Service - Shreveport, LA, 5655 Hollywood Avenue, Shreveport, LA 71109, United States of America"
   },
   {
     "city": "Sioux Falls",
     "state": "South Dakota",
     "code": "FSD",
-    "address": "26 Weather Lane Sioux Falls, SD 57104"
+    "address": "26 Weather Lane Sioux Falls, SD 57104",
+    "latitude": 43.5881071,
+    "longitude": -96.7305711,
+    "formattedAddress": "26 West Weather Lane, Sioux Falls, SD 57104, United States of America"
   },
   {
     "city": "Spokane",
     "state": "Washington",
     "code": "OTX",
-    "address": "2601 N Rambo Rd, Spokane, WA 99224"
+    "address": "2601 N Rambo Rd, Spokane, WA 99224",
+    "latitude": 47.679253,
+    "longitude": -117.625347,
+    "formattedAddress": "2601 North Rambo Road, Spokane County, WA 99224, United States of America"
   },
   {
     "city": "Springfield",
     "state": "Missouri",
     "code": "SGF",
-    "address": "5805 West Highway EE Springfield, MO 65802"
+    "address": "5805 West Highway EE Springfield, MO 65802",
+    "latitude": 37.226376,
+    "longitude": -93.337531,
+    "formattedAddress": "State Hwy Ee, Springfield, MO, United States of America"
   },
   {
     "city": "St. Louis",
     "state": "Missouri",
     "code": "LSX",
-    "address": "12 Missouri Research Park Drive St. Charles, MO 63304"
+    "address": "12 Missouri Research Park Drive St. Charles, MO 63304",
+    "latitude": 38.74821,
+    "longitude": -90.649279,
+    "formattedAddress": "St Charles St, Saint Charles, MO, United States of America"
   },
   {
     "city": "State College",
     "state": "Pennsylvania",
     "code": "CTP",
-    "address": "328 Innovation Blvd, State College, PA 16803"
+    "address": "328 Innovation Blvd, State College, PA 16803",
+    "latitude": 40.825865,
+    "longitude": -77.844959,
+    "formattedAddress": "Innovation Blvd, State College, PA, United States of America"
   },
   {
     "city": "Tallahassee",
     "state": "Florida",
     "code": "TAE",
-    "address": "1017 Academic Way FSU, Love Bldg, 4th Floor, Tallahassee, FL 32306-4509"
+    "address": "1017 Academic Way FSU, Love Bldg, 4th Floor, Tallahassee, FL 32306-4509",
+    "latitude": 30.582162,
+    "longitude": -84.58847,
+    "formattedAddress": "4 Th St, Quincy, FL, United States of America"
   },
   {
     "city": "Tampa",
     "state": "Florida",
     "code": "TBW",
-    "address": "2525 14th Ave SE, Ruskin, FL 33570"
+    "address": "2525 14th Ave SE, Ruskin, FL 33570",
+    "latitude": 27.7059209,
+    "longitude": -82.4270814,
+    "formattedAddress": "14th Avenue Southeast, Ruskin Colony Farms, Hillsborough County, FL 33570, United States of America"
   },
   {
     "city": "Topeka",
     "state": "Kansas",
     "code": "TOP",
-    "address": "1116 NE Strait Avenue Topeka, KS 66616"
+    "address": "1116 NE Strait Avenue Topeka, KS 66616",
+    "latitude": 39.072277,
+    "longitude": -95.6308341,
+    "formattedAddress": "National Weather Service - Topeka, KS, 1116 Northeast Strait Avenue, Oakland, Topeka, KS 66616, United States of America"
   },
   {
     "city": "Tucson",
     "state": "Arizona",
     "code": "TWC",
-    "address": "520 N Park Ave #304, Tucson, AZ 85719"
+    "address": "520 N Park Ave #304, Tucson, AZ 85719",
+    "latitude": 32.2283112,
+    "longitude": -110.9563733,
+    "formattedAddress": "520 North Park Avenue, Tucson, AZ 85719, United States of America"
   },
   {
     "city": "Tulsa",
     "state": "Oklahoma",
     "code": "TSA",
-    "address": "10159 E 11th St #300, Tulsa, OK 74128"
+    "address": "10159 E 11th St #300, Tulsa, OK 74128",
+    "latitude": 36.1491944,
+    "longitude": -95.8621729,
+    "formattedAddress": "10159 East 11th Street, Tulsa, OK 74128, United States of America"
   },
   {
     "city": "Wakefield",
     "state": "Virginia",
     "code": "AKQ",
-    "address": "10009 General Mahone Hwy, Wakefield, VA 23888"
+    "address": "10009 General Mahone Hwy, Wakefield, VA 23888",
+    "latitude": 36.956062,
+    "longitude": -76.96672,
+    "formattedAddress": "General Mahone Highway, Wakefield, Sussex County, VA 23888, United States of America"
   },
   {
     "city": "Wichita",
     "state": "Kansas",
     "code": "ICT",
-    "address": "2142 S. Tyler Road Wichita, KS 67209"
+    "address": "2142 S. Tyler Road Wichita, KS 67209",
+    "latitude": 37.65637,
+    "longitude": -97.4436841,
+    "formattedAddress": "2142 South Tyler Road, Tyler, Wichita, KS 67209, United States of America"
   },
   {
     "city": "Wilmington",
     "state": "North Carolina",
     "code": "ILM",
-    "address": "2015 Gardner Dr, Wilmington, NC 28405"
+    "address": "2015 Gardner Dr, Wilmington, NC 28405",
+    "latitude": 34.280418,
+    "longitude": -77.912447,
+    "formattedAddress": "2015 Gardner Dr, Wilmington, NC, United States of America"
   }
 ]

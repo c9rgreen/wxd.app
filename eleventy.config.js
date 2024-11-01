@@ -1,4 +1,3 @@
-import eleventy from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
 export default function (eleventyConfig) {
@@ -8,12 +7,13 @@ export default function (eleventyConfig) {
     strictFilters: true,
   });
 
-  // Navigation
+  // Navigation plugin
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  // Styles
-  eleventyConfig.addPassthroughCopy("assets/styles/main.css");
+  // Assets
+  eleventyConfig.addPassthroughCopy("assets");
 
+  // Sanitize.css
   eleventyConfig.addPassthroughCopy({
     "node_modules/sanitize.css/sanitize.css": "assets/styles/sanitize.css",
     "node_modules/sanitize.css/system-ui.css": "assets/styles/system-ui.css",
@@ -22,8 +22,7 @@ export default function (eleventyConfig) {
       "assets/styles/ui-monospace.css",
   });
 
-  // Scripts
-  eleventyConfig.addPassthroughCopy("assets/scripts/main.js");
+  // DayJS
   eleventyConfig.addPassthroughCopy({
     "node_modules/dayjs/dayjs.min.js": "assets/scripts/dayjs.min.js",
   });
@@ -36,5 +35,18 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "node_modules/dayjs/plugin/customParseFormat.js":
       "assets/scripts/customParseFormat.js",
+  });
+
+  // LeafletJS
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/leaflet/dist/leaflet.js": "assets/scripts/leaflet.js",
+  });
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/leaflet/dist/leaflet.css": "assets/styles/leaflet.css",
+  });
+
+  // Weather Offices
+  eleventyConfig.addPassthroughCopy({
+    "_data/offices.json": "assets/data/offices.json",
   });
 }

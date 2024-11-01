@@ -64,7 +64,7 @@ function parseDate(inputString) {
   console.log("Input string:", inputString);
 
   const dateRegex =
-    /(\d{1,2})(\d{2}) (AM|PM)\ (\w{3,4})\ (\w{3})\ (\w{3})\ (\d{1,2})\ (\d{4})/;
+    /(\d{1,2})(\d{2}) (AM|PM) (\w{3,4}) (\w{3}) (\w{3}) (\d{1,2}) (\d{4})/;
   const dateMatch = dateRegex.exec(inputString);
 
   if (dateMatch) {
@@ -94,7 +94,7 @@ function parseDate(inputString) {
       const parsedDate = dayjs.tz(
         rebuiltString,
         "YYYY-MMM-D h:mm A",
-        isoTimeZone
+        isoTimeZone,
       );
 
       console.log("ISO date:", parsedDate.toISOString());
@@ -271,7 +271,7 @@ class Discussion {
         const parser = new DOMParser();
         const discussionPage = parser.parseFromString(data, "text/html");
         this.text = discussionPage.querySelector(
-          "pre.glossaryProduct"
+          "pre.glossaryProduct",
         ).innerText;
       });
   }
@@ -347,7 +347,7 @@ if (discussionElement) {
       // Header
       const headerElement = document.createElement("h3");
       headerElement.className = "section-header";
-      headerElement.textContent = section.title.titleCase;
+      headerElement.textContent = section.title.text;
       discussionElement.append(headerElement);
 
       // Blocks

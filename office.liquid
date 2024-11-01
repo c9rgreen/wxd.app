@@ -10,7 +10,8 @@ permalink: "office/{{ office.code }}/"
 {% block main %}
 <div class="discussion-wrapper">
   <div id="discussion" class="discussion" data-code="{{ office.code }}">
-    <h1 class="discussion-header">{{ office.city }}, {{ office.state }}</h1>
+    <p><a href="/">← Back to map</a></p>
+    <h1 class="discussion-header"><a href="https://www.weather.gov/{{ office.code }}/" target="_blank">{{ office.city }}, {{ office.state }}</a></h1>
     <p><a href="" id="discussion-source" target="_blank">Source: National Weather Service</a></p>
   </div>
 </div>
