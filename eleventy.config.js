@@ -52,4 +52,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "_data/offices.json": "assets/data/offices.json",
   });
+
+  // Icons and more
+  eleventyConfig.addPassthroughCopy({ "_header/**/*": "/" });
 }

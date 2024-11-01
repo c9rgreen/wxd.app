@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @11ty/eleventy --watch --serve"
+    "dev": "npx @11ty/eleventy --watch --serve",
+    "ico": "magick _header/icon.png -define icon:auto-resize=16,32,48 _header/favicon.ico"
   },
   "keywords": [],
   "author": "",
