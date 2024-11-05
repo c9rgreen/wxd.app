@@ -1,116 +1,120 @@
-function initMap() {
-  try {
-    // Initialize map centered on North America
-    const map = L.map("map").setView([40, -100], 5);
+/**
+ * Initialize OpenStreetMap base layer
+ */
+function initBase(map) {
+	L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+		attribution:
+			'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	}).addTo(map);
+}
 
-    // Add OpenStreetMap base layer
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
+/**
+ * Fetch a list of the available radar maps
+ */
+async function fetchAvailableRadarMaps(rainviewer) {
+	try {
+		const response = await fetch(
+			"https://api.rainviewer.com/public/weather-maps.json",
+		);
 
-    let rainviewer = {
-      layer: null,
-      animationPosition: 0,
-      colorScheme: 1,
-      timestamps: [],
-      currentTimestamp: 0,
-    };
+		const data = await response.json();
 
-    async function getRadarData() {
-      try {
-        const response = await fetch(
-          "https://api.rainviewer.com/public/weather-maps.json"
-        );
-        const data = await response.json();
-        rainviewer.timestamps = data.radar.past;
-        return data;
-      } catch (error) {
-        console.error("Error fetching radar data:", error);
-      }
-    }
+		rainviewer.timestamps = data.radar.past;
 
-    function addLayer(timestamp) {
-      if (rainviewer.layer) {
-        map.removeLayer(rainviewer.layer);
-      }
+		return data;
+	} catch (error) {
+		console.error("Error fetching list of available data:", error);
+	}
+}
 
-      rainviewer.layer = L.tileLayer(
-        `https://tilecache.rainviewer.com/v2/radar/${timestamp.time}/256/{z}/{x}/{y}/2/1_1.png`,
-        {
-          tileSize: 256,
-          opacity: 0.6,
-          attribution: '<a href="https://rainviewer.com">RainViewer</a>',
-        }
-      ).addTo(map);
-    }
+/**
+ * Fetch radar data and add layer to map
+ */
+function addRadarLayer(timestamp, rainviewer, map) {
+	if (rainviewer.layer) {
+		map.removeLayer(rainviewer.layer);
+	}
 
-    async function initialize() {
-      const data = await getRadarData();
-      if (data) {
-        // Get the most recent timestamp
-        const mostRecent = data.radar.past[data.radar.past.length - 1];
-        addLayer(mostRecent);
-      }
-    }
+	rainviewer.layer = L.tileLayer(
+		`https://tilecache.rainviewer.com/v2/radar/${timestamp.time}/256/{z}/{x}/{y}/2/1_1.png`,
+		{
+			tileSize: 256,
+			opacity: 0.6,
+			attribution: '<a href="https://rainviewer.com">RainViewer</a>',
+		},
+	).addTo(map);
+}
 
-    // Initialize the weather layer
-    initialize();
+/**
+ * Initialize the radar layer
+ */
+async function initRadar(map) {
+	const rainviewer = {
+		layer: null,
+		animationPosition: 0,
+		colorScheme: 1,
+		timestamps: [],
+		currentTimestamp: 0,
+	};
 
-    // Add layer controls
-    const baseMaps = {
-      OpenStreetMap: L.tileLayer(
-        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      ),
-    };
+	try {
+		const data = await fetchAvailableRadarMaps(rainviewer);
+		// Get the most recent timestamp
+		const mostRecent = data.radar.past[data.radar.past.length - 1];
 
-    // Add scale control
-    L.control.scale().addTo(map);
+		addRadarLayer(mostRecent, rainviewer, map);
+	} catch (error) {
+		console.error("Error fetching radar layer:", error);
+	}
+}
 
-    // Custom icon for weather offices
-    const pinIcon = L.divIcon({
-      className: "emoji-marker",
-      html: `<div style="font-size: 30px; ">📍</div>`,
-      iconSize: [30, 30],
-      iconAnchor: [15, 30],
-    });
+/**
+ * Add a list of locations as markers to the map
+ */
+function addMarkers(locations, map) {
+	const icon = L.divIcon({
+		className: "emoji-marker",
+		html: `<div style="font-size: 30px; ">📍</div>`,
+		iconSize: [30, 30],
+		iconAnchor: [15, 30],
+	});
 
-    // Adds markers for weather office locations
-    function addLocationMarkers(locationsData) {
-      // Add markers for each location
-      locationsData.forEach((location) => {
-        L.marker([location.latitude, location.longitude], {
-          icon: pinIcon,
-          title: location.code, // Adds a tooltip on hover
-        }).addTo(map).bindPopup(`
-                <a href="/office/${location.code}/">
-                <b>${location.code}</b><br>
-                ${location.city}, ${location.state}<br>
-                </a>
-                ${location.formattedAddress}<br>
-            `);
-      });
-    }
+	locations.forEach((location) => {
+		L.marker([location.latitude, location.longitude], {
+			icon: icon,
+			title: location.code,
+		})
+			.addTo(map)
+			.bindPopup(`
+              <a href="/office/${location.code}/">
+              <b>${location.code}</b><br>
+              ${location.city}, ${location.state}<br>
+              </a>
+              ${location.formattedAddress}<br>
+          `);
+	});
+}
 
-    // Get weather office locations:
-    fetch("/assets/data/offices.json")
-      .then((response) => {
-        // Check if the response is OK (status in the range 200-299)
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(addLocationMarkers)
-      .catch((error) => {
-        console.log(error);
-      });
-  } catch (error) {
-    console.log(error);
-  }
+/**
+ * Fetch marker data and add the markers to the maps
+ */
+async function initMarkers(map) {
+	try {
+		const response = await fetch("/assets/data/offices.json");
+		const data = await response.json();
+
+		addMarkers(data, map);
+	} catch (error) {
+		console.error("Error fetching markers:", error);
+	}
 }
 
 // Load map only if an element with the id "map" exists
 if (document.getElementById("map")) {
-  initMap();
+	// Initialize map centered on North America
+	const map = L.map("map").setView([40, -100], 5);
+
+	initBase(map);
+	initRadar(map);
+	initMarkers(map);
 }
