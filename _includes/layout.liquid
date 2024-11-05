@@ -45,15 +45,32 @@
       </header>
       <main class="site-main">
         {% block main %}{% endblock %}
-
       </main>
     </div>
+
+    <!-- Template for the filterable-list web component -->
+    <template id="filterable-list">
+      <style>
+        :host {
+          display: block;
+        }
+      </style>
+      <input part="search" type="search" placeholder="City or State">
+      <ul part="list">
+        <slot></slot>
+      </ul>
+      <div class="no-results" style="display: none;">
+        No matching items found
+      </div>
+    </template>
+
     <script src="/assets/scripts/dayjs.min.js"></script>
     <script src="/assets/scripts/utc.js"></script>
     <script src="/assets/scripts/timezone.js"></script>
     <script src="/assets/scripts/customParseFormat.js"></script>
     <script src="/assets/scripts/leaflet.js"></script>
     <script src="/assets/scripts/main.js"></script>
+    <script src="/assets/scripts/filterable-list.js"></script>
     <script src="/assets/scripts/map.js"></script>
   </body>
 </html>

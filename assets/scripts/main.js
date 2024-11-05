@@ -1,61 +1,11 @@
 /**
+ * Returns the last element of an array
  * Copied from Lodash
  */
 function last(array) {
   let length = array == null ? 0 : array.length;
   return length ? array[length - 1] : undefined;
 }
-
-/**
- * A web component which adds an input element to a list of elements
- * and allows them to be filtered
- */
-class FilterableList extends HTMLElement {
-  constructor() {
-    super();
-    this.attachShadow({ mode: "open" });
-
-    // Template
-    this.shadowRoot.innerHTML = `
-      <style>
-        :host {
-          display: block;
-        }
-      </style>
-      <input part="search" type="search" placeholder="City or State">
-      <ul part="list">
-        <slot></slot>
-      </ul>
-      <div class="no-results" style="display: none;">
-        No matching items found
-      </div>
-    `;
-
-    this._input = this.shadowRoot.querySelector("input");
-    this._list = this.shadowRoot.querySelector("ul");
-    this._noResults = this.shadowRoot.querySelector(".no-results");
-
-    this._input.addEventListener("input", () => this._filterItems());
-  }
-
-  _filterItems() {
-    const searchText = this._input.value.toLowerCase();
-    const items = Array.from(this.querySelectorAll("li"));
-
-    let visibleItems = 0;
-
-    items.forEach((item) => {
-      const text = item.textContent.toLowerCase();
-      const shouldShow = text.includes(searchText);
-      item.classList.toggle("hidden", !shouldShow);
-      if (shouldShow) visibleItems++;
-    });
-
-    this._noResults.style.display = visibleItems === 0 ? "block" : "none";
-  }
-}
-
-customElements.define("filterable-list", FilterableList);
 
 /**
  * Take a string like "113 PM EDT Sat Oct 12 2024" and turn it into an date object
@@ -94,7 +44,7 @@ function parseDate(inputString) {
       const parsedDate = dayjs.tz(
         rebuiltString,
         "YYYY-MMM-D h:mm A",
-        isoTimeZone,
+        isoTimeZone
       );
 
       console.log("ISO date:", parsedDate.toISOString());
@@ -271,7 +221,7 @@ class Discussion {
         const parser = new DOMParser();
         const discussionPage = parser.parseFromString(data, "text/html");
         this.text = discussionPage.querySelector(
-          "pre.glossaryProduct",
+          "pre.glossaryProduct"
         ).innerText;
       });
   }
